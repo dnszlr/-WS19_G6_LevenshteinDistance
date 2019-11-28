@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>eba232ef-3d31-454a-8e27-f0a0b86f8aff</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>WS19_G6_LevenshteinDistance.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +22,21 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="WS19_G6_LevenshteinDistance.py" />
+    <Compile Include="Card.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LevenshteinDistance.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\CardTest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\LevenshteinDistanceTest.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UnitTests\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
