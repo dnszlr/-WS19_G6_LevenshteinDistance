@@ -7,12 +7,13 @@ class Test_LevenshteinDistanceTest(unittest.TestCase):
 
     def setUp(self):
         self.lSD = LevenshteinDistance()
+        self.lSD.matrix=[[]]
 
         
 
     def levensteinD_Test(self):
         #Assume
-        matrix 
+   
         #Action
 
         #Assert
