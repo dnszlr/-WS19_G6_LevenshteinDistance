@@ -4,14 +4,20 @@ class LevenshteinDistance(object):
 
     def __init__(self):
         self.cards = []
-        self.matrix = [[]]
+        self.matrix =[[]]
+
+    def createMatrix(self, stringReference, stringScrambled):
+        """Fills the matrix with values"
+        return null
 
     def levenshteinD(self):
         """Uses insert, delete, replace"""
+
         return null
 
     def insert (self, i, c):
         """Insert letter c on index i"""
+
         return null
 
     def delete(self, i ):
