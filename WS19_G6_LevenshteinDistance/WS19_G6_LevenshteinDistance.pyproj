@@ -25,19 +25,13 @@
     <Compile Include="Card.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="LevenshteinDistance.py">
+    <Compile Include="CardCollector.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CardRepair.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="mainTest.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Matrix.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="UnitTests\CardTest.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="UnitTests\LevenshteinDistanceTest.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
