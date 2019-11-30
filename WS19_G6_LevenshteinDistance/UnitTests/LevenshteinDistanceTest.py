@@ -1,11 +1,15 @@
 import unittest
 from  WS19_G6_LevenshteinDistance import LevenshteinDistance
 
+from LevenshteinDistance import LevenshteinDistance
+
 class Test_LevenshteinDistanceTest(unittest.TestCase):
+
     def setUp(self):
-        self.levenshtein = LevenshteinDistance()
-        self.levenshtein.matrix=[[]]
-     
+        self.lSD = LevenshteinDistance()
+
+        
+
     def levensteinD_Test(self):
         #Assume
         matrix 
