@@ -10,5 +10,3 @@ class Matrix(object):
             matrix[i][0] = i
             for j in range(0, len(matrix[i])):
                 matrix[0][j] = j
-
-
