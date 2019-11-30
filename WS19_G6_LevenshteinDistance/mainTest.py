@@ -1,9 +1,12 @@
 
 def main():
 
-    matrix = [[(len("StringS"))](len("StringT"))]
+    matrix = [[0 for x in range(len("stringS"))] for y in range(len("stringT"))]
 
-    print(matrix)
+    for i in range(len(matrix)):
+        for j in range(len(matrix[i])):
+            print(matrix[i][j], end=' ')
+        print()
 
 main()
 
