@@ -1,4 +1,2 @@
 class CardRepair(object):
-    """description of class"""
-
-
+    #description of class

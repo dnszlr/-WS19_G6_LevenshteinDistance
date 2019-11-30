@@ -34,12 +34,6 @@
     <Compile Include="mainTest.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="UnitTests\CardTest.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="UnitTests\LevenshteinDistanceTest.py">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Files\" />

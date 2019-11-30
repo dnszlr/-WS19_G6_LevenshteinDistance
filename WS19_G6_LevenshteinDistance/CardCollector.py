@@ -1,4 +1,4 @@
 class CardCollector(object):
-    """description of class"""
+    #description of class
 
 
