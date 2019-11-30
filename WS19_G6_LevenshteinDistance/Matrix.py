@@ -1,6 +1,6 @@
 
 class Matrix(object):
-    """description of class"""
+    #description of class
 
     def __init__(self, stringS, stringT):
 

@@ -1,39 +1,44 @@
 
 class LevenshteinDistance(object):
-    """description of class"""
+    #description of class
 
     def __init__(self):
         self.cards = []
         self.matrix =[[]]
 
     def createMatrix(self, stringReference, stringScrambled):
-        """Fills the matrix with values"
+        #Fills the matrix with values
+
         return null
 
     def levenshteinD(self):
-        """Uses insert, delete, replace"""
+        #Uses insert, delete, replace
 
         return null
 
     def insert (self, i, c):
-        """Insert letter c on index i"""
+        #Insert letter c on index i
 
         return null
 
-    def delete(self, i ):
-        """Deletes letter on index i"""
+    def delete(self, i):
+        #Deletes letter on index i
+
         return null 
 
-    def replace(self, i,c):
-        """Replace letter on index i with c"""
+    def replace(self, i, c):
+        #Replace letter on index i with c
+
         return null 
 
     def read(self):
-        """Read cards from txt-File"""
+        #Read cards from txt-File
+
         return null
 
     def write(self):
-        """Write into txt-File"""
+        #Write into txt-File
+
         return null
 
 
