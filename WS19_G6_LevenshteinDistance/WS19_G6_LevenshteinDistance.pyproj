@@ -25,19 +25,13 @@
     <Compile Include="Card.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="LevenshteinDistance.py">
+    <Compile Include="CardCollector.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CardRepair.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="mainTest.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Matrix.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="UnitTests\CardTest.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="UnitTests\LevenshteinDistanceTest.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -48,6 +42,7 @@
   <ItemGroup>
     <Content Include="Files\reference.txt" />
     <Content Include="Files\scrambled.txt" />
+    <Content Include="Files\Uml.JPG" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
