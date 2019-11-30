@@ -28,6 +28,9 @@
     <Compile Include="LevenshteinDistance.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Matrix.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="UnitTests\CardTest.py">
       <SubType>Code</SubType>
     </Compile>
