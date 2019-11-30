@@ -22,10 +22,12 @@ class LevenshteinDistance(object):
         """Replace letter on index i with c"""
         return null 
 
+    def read(self):
+        """Read cards from txt-File"""
+        return null
+
     def write(self):
         """Write into txt-File"""
         return null
 
-    def read(self):
-        """Read cards from txt-File""
-        return null
+
