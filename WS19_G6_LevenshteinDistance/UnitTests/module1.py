@@ -10,4 +10,10 @@ class CardCollectorTest(unittest.Testcase):
         pass
 
     def testReadScramble(self):
-       pass
+        #is List brokenCards empty
+       self.assertIsNone (brokenCards)
+       self.ReadScramble()
+       #is List brokenCards filled
+       self.assertIsNotNone(bokenCards)
+       
+      
