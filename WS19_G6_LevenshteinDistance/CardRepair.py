@@ -2,12 +2,14 @@ class CardRepair(object):
     #description of class
 
     def __init__(self, card, allCards):
+        assert card != None && allCards != None
         self.card = card
         self.allCards = allCards
         self.matrix = [[]]
 
     #create the LD-matrix
-    def LD(self):
+    def LD(self, referenceCard):
+        assert len(self.card.name) >= 1 &&  len(referenceCard.name) >= 1
         return self.matrix
 
     #repair the name of the card from the cards list
