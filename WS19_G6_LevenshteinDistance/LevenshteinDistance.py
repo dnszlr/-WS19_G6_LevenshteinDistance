@@ -7,7 +7,7 @@ class LevenshteinDistance(object):
         self.matrix =[[]]
 
     def createMatrix(self, stringReference, stringScrambled):
-        """Fills the matrix with values"
+        """Fills the matrix with values"""
         return null
 
     def levenshteinD(self):

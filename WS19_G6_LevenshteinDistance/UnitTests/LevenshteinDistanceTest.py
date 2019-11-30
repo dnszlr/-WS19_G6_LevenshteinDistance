@@ -7,8 +7,6 @@ class Test_LevenshteinDistanceTest(unittest.TestCase):
     def setUp(self):
         self.lSD = LevenshteinDistance()
 
-        
-
     def levensteinD_Test(self):
         self.fail("Not implemented")
 

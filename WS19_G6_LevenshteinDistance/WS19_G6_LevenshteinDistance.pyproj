@@ -48,6 +48,7 @@
   <ItemGroup>
     <Content Include="Files\reference.txt" />
     <Content Include="Files\scrambled.txt" />
+    <Content Include="Files\Uml.JPG" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
