@@ -1,7 +1,7 @@
 
 def main():
 
-    matrix = [[0 for x in range(len("stringS") + 1)] for y in range(len("stringTbdgaadbrbtr") + 1)]
+    matrix = [[0 for x in range(len("stringS") + 1)] for y in range(len("stringT") + 1)]
 
     for x in range(0, len(matrix)):
         matrix[x][0] = x

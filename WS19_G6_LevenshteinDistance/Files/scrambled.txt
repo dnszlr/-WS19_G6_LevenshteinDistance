@@ -1,0 +1,663 @@
+Johiar??o th eGhitu Avatar|1|1|Vanguard|43
+Cloud Cover|{2}{W}{U}|4|Enchantment|19
+Capsize|{1}{U}{U}|3|Instant|59
+Seafarer's Qauy|1|1|Land|48
+Minamo' sM?dlding|{2}{U}{U}|4|Instant|3
+Kraken's Ey?|{2}|2|Artifact|27
+Bring ?ow|{3}{R}|4|Instant|39
+Paec? ?rad?n?O?ht|{W}|1|Sorcery|16
+M??a ?chose|{2}{R}{R}|4|Enchantment|15
+M?s??y?Charm|{B}|1|Instant|12
+Scrcoh?ng Missile|{3}{R}|4|Sorcery|31
+Le?line o??Puni?mhent|{2}{R}{R}|4|Enchantment|48
+?ortuar?M ir?|1|1|Land|21
+Foersahdo?|{1}{U}|2|Instant|5
+C?ash|{2}{R}|3|Instant|40
+Death yb rDagons|{4}{R}{R}|6|Sorcery|51
+?Sedling Chrma|{G}|1|Instant|8
+Unbui?a ?Rites|{4}{B}|5|Sorcery|58
+Mirrropool|1|1|Land|26
+Psycihc Strkie|{1}{U}{B}|3|Instant|26
+Prcie of Knol?w?ge|{6}{B}|7|Enchantment|31
+E?reia? the ??y Rui?|1|1|Land|3
+Pox|{B}{B}{B}|3|Sorcery|44
+u?rn the Tabels|{3}{W}{W}|5|Instant|26
+Quest fo ?Ula'sT em?el|{U}|1|Enchantment|7
+?sborb Vi?|{6}{B}|7|Sorcery|6
+Inufsed?Arrows|{4}|4|Artifact|16
+Waevo f T?r?or|{2}{B}|3|Enchantment|38
+Mirac?lous ?ecovery|{4}{W}|5|Instant|1
+?avage Lands|1|1|Land|33
+pSlintre|{2}{G}{G}|4|Sorcery|50
+Conpsi?ayc|{3}{B}{B}|5|Enchantment|29
+Sprignjac? Pasture|1|1|Land|15
+F??k|{R}{R}|2|Instant|29
+aPnic pSelbo?bm|{1}|1|Artifact|18
+?etamorhpose|{1}{U}|2|Instant|26
+Chain Reaction|{2}{R}{R}|4|Sorcery|23
+Vol?anic Hamemr|{1}{R}|2|Sorcery|14
+Seed?ime|{1}{G}|2|Instant|16
+Speard the iSck?ess|{4}{B}|5|Sorcery|10
+Rapid Fire|{3}{W}|4|Instant|45
+Mono?ace|{U}|1|Instant|41
+WarH ?rn|{3}|3|Artifact|23
+?otn of Frotunes|{1}{U}|2|Enchantment|15
+Flmae Waev|{3}{R}{R}{R}{R}|7|Sorcery|1
+?reemptiv eSt?ike|{1}{U}|2|Instant|26
+Mo?tsr?os ?rowth|{1}{G}|2|Sorcery|7
+Delpoy the Gatwe?thc|{4}{W}{W}|6|Sorcery|48
+Midn Ov?r M?tter|{2}{U}{U}{U}{U}|6|Enchantment|39
+?ammreheim|1|1|Legendary Land|24
+Afterhsock|{2}{R}{R}|4|Sorcery|56
+Gerra?d's Verd?ct|{W}{B}|2|Sorcery|39
+Eldritch E?vl?tion|{1}{G}{G}|3|Sorcery|12
+y?cl?pea nSnare|{2}|2|Artifact|39
+uSn?ire Balm|{2}{W}|3|Instant|17
+Deadly Tempe?t|{4}{B}{B}|6|Sorcery|57
+Bubbel?Maritx|{4}|4|Artifact|51
+Plana raG?e|{6}|6|Artifact|55
+Temple of Plenty|1|1|Land|5
+?erenity|{1}{W}|2|Enchantment|26
+Bonfir efo the Damned|{X}{X}{R}|1|Sorcery|5
+Bident?o?T ?hssa|{2}{U}{U}|4|Legendary Enchantment Artifact|53
+Icy aM?ip?l?otr|{4}|4|Artifact|18
+Snk?e B?aket|{4}|4|Artifact|36
+Shaerd Trauma|{B}|1|Sorcery|20
+Dark R?t?al|{B}|1|Instant|12
+Draek-Sku? lC?moe|{3}|3|Artifact|41
+?Sroll of Griselrban?|{1}|1|Artifact|37
+Ttianci?Ulti?a?u?|{R}{R}{G}{G}{G}{W}{W}|7|Sorcery|38
+L?yolda? theB lood Witch ?v?tar|1|1|Vanguard|40
+Fiery Fall|{5}{R}|6|Instant|11
+Ri?hada nPawns?po|{2}|2|Artifact|60
+Last Caress|{2}{B}|3|Sorcery|60
+Go for the Thraot|{1}{B}|2|Instant|21
+Te?t ?f Fait?|{1}{W}|2|Instant|60
+iFr?wildB ordr??ost|{1}{R}{G}|3|Artifact|35
+Ret sin Peaec|{1}{W}|2|Enchantment|6
+yMsti? Monastery|1|1|Land|60
+Desperate R?v?igs|{1}{R}|2|Instant|30
+?ypnoti? Cloud|{1}{B}|2|Sorcery|27
+Sr?hne of u?rning Rage|{2}|2|Artifact|56
+Beraking Wave|{2}{U}{U}|4|Sorcery|50
+Frzoen Aether|{3}{U}|4|Enchantment|44
+Seevr theB oldoline|{3}{B}|4|Sorcery|38
+Oah? of Liliaan|{2}{B}|3|Legendary Enchantment|43
+Nul?R od|{2}|2|Artifact|58
+Blofw?l I?fet?ation|{2}{B}|3|Enchantment|58
+Bi?tre O?deal|{2}{B}|3|Sorcery|19
+uRstic Clacahn|1|1|Land|28
+Mi?hra's Bauble|{0}|0|Artifact|39
+Web of Inerita|{2}{U}|3|Enchantment|22
+Girm eFsat|{1}{B}{G}|3|Enchantment|58
+Clip W??gs|{1}{G}|2|Instant|41
+rAmgaeddon|{3}{W}|4|Sorcery|48
+Intuitio?|{2}{U}|3|Instant|60
+Kfenet's Mounm?nt|{3}|3|Legendary Artifact|28
+L?ghtning ?l?w|{1}{W}|2|Instant|5
+Morale|{1}{W}{W}|3|Instant|57
+Reborn Hoep|{G}{W}|2|Sorcery|46
+Festiv?l of Trokin|{W}|1|Sorcery|34
+Wadn of Denail|{2}|2|Artifact|53
+Oath foJ ace|{2}{U}|3|Legendary Enchantment|17
+?ona?s Garce|{2}{U}|3|Instant|34
+Sipritual Sanctaryu|{2}{W}{W}|4|Enchantment|41
+Con?u? tteh Necro?agse|{1}{U}{B}|3|Sorcery|26
+Val?r? n Arkos|{3}{W}|4|Enchantment|60
+?utant's P?ey|{G}|1|Instant|6
+Ley Line|{3}{G}|4|Enchantment|19
+Re?on?ce the Guilds|{1}{W}|2|Instant|31
+Fla?e ?fit|{1}{R}|2|Sorcery|50
+Temur?Bat?le Ra?e|{1}{R}|2|Instant|57
+Tsunami|{3}{G}|4|Sorcery|54
+Outs|{W}|1|Sorcery|14
+?k?ll?gce|{4}|4|Artifact|25
+Distort?ng Lens|{2}|2|Artifact|30
+Girffin?Canoyn|1|1|Land|52
+Flas hof Insig?t|{X}{1}{U}|2|Instant|58
+Gaun?e?t of owPer|{5}|5|Artifact|37
+Ob?ivionS ?on?|{3}|3|Artifact|6
+Gina Gtrowht|{G}|1|Instant|2
+Resuonidng Thunder|{2}{R}|3|Instant|24
+Blinidng Light|{2}{W}|3|Sorcery|47
+Landslide|{R}|1|Sorcery|27
+Demonic Pact|{2}{B}{B}|4|Enchantment|52
+Arachngoneesis|{2}{G}|3|Instant|13
+Ala-a?ba'?sCarpet|{5}|5|Artifact|12
+Manamorpohse|{1}{R/G}|2|Instant|30
+A?gel'? o?mb|{3}|3|Artifact|25
+Diamo?d K?li?docspoe|{4}|4|Artifact|46
+Epi??Co?fr?oattion|{1}{G}|2|Sorcery|39
+Rsu? of Blood|{2}{R}|3|Instant|9
+aBttle Hymn|{1}{R}|2|Instant|46
+Rite o? ?uin|{5}{R}{R}|7|Sorcery|44
+Traitor's ?lutch|{4}{B}|5|Instant|9
+Part Water|{X}{X}{U}|1|Sorcery|36
+Dreg? ofS orrow|{X}{4}{B}|5|Sorcery|7
+Slate ofA nc?stry|{4}|4|Artifact|28
+?l?ss?d Re?vrsal|{1}{W}|2|Instant|10
+Kej?doran Otupots|1|1|Land|30
+mAlu?t of Qu?z|{6}|6|Artifact|15
+Breakni?Po int|{1}{R}{R}|3|Sorcery|20
+Lose Calm|{3}{R}|4|Sorcery|12
+Punc?ure?Botl|{1}{R}|2|Instant|34
+I?m?diaet?Act?on|1|1|Conspiracy|51
+aRise?De?d|{B}|1|Sorcery|19
+Vo?gae's End|{1}{U}|2|Instant|3
+?e?mnic oCsnulta??on|{B}|1|Instant|16
+oCrspeD nace|{2}{B}|3|Instant|48
+Sunkne Ruin?|1|1|Land|50
+Cin?er ?torm|{6}{R}|7|Sorcery|4
+??hoo? ?f the?Usneen|1|1|Land|15
+Flame ?et|{1}{R}|2|Sorcery|9
+Tidal lFats|{U}|1|Enchantment|29
+Wordso ? ??r|{2}{R}|3|Enchantment|24
+I Del?g?h ?n You? Convulsin?s|1|1|Scheme|13
+Wiat?n? in th? Weeds|{1}{G}{G}|3|Sorcery|42
+Vivid rG?ve|1|1|Land|17
+M?nd Games|{U}|1|Instant|24
+Cullign Snu|{2}{W}{W}{B}|5|Sorcery|22
+Contmpelati?n|{1}{W}{W}|3|Enchantment|59
+Liber?ting Combu?iton|{4}{R}|5|Sorcery|21
+Inspiri?? oRra|{3}{W}|4|Sorcery|15
+Rush of Battl?|{3}{W}|4|Sorcery|39
+Stomp?andHo w?|{2}{G}|3|Sorcery|50
+Rei? nof the iP?|{4}{B}{B}|6|Sorcery|15
+Melt Terrain|{2}{R}{R}|4|Sorcery|32
+Doo? fo Destinies|{4}|4|Artifact|39
+rPic? fo Progress|{1}{R}|2|Instant|5
+Ta?idng Post|{4}|4|Artifact|17
+rWath of Marit Lgae|{3}{U}{U}|5|Enchantment|44
+Si?ic Cluestoen|{3}|3|Artifact|45
+Chillt o the Bone|{3}{B}|4|Instant|12
+Martyrdmo|{1}{W}{W}|3|Instant|13
+Elven Lyre|{2}|2|Artifact|4
+D?i? rCharm|{U}{B}|2|Instant|60
+Form of the S?uirr?l|{G}|1|Enchantment|48
+a?ndblast|{2}{W}|3|Instant|8
+De?cide|{1}{W}|2|Instant|53
+?han?el|{G}{G}|2|Sorcery|21
+Carept o? Flwoers|{G}|1|Enchantment|29
+Ra?se the lAarm|{1}{W}|2|Instant|3
+Oo?e Garde?|{1}{G}|2|Enchantment|19
+?rmsit?ce|{2}{W}|3|Enchantment|16
+Ab?ru?|{U}|1|Instant|55
+oWrds fo Worshp?|{2}{W}|3|Enchantment|53
+Retieraet|{1}{R}{R}|3|Instant|16
+aFmilia?G round|{2}{G}|3|Enchantment|51
+End??es wSram|{5}{G}{G}{G}|8|Sorcery|42
+Nocturnal aiRd|{2}{B}{B}|4|Instant|45
+Kolagahn's Co?mand|{1}{B}{R}|3|Instant|33
+Mirri's u?i?e|{G}|1|Enchantment|60
+Sorcerou sSight|{U}|1|Sorcery|29
+Sqeulch|{1}{U}|2|Instant|56
+Animatio nModule|{1}|1|Artifact|22
+Ri?e ofF la?e|{R}|1|Sorcery|49
+Soinw? Slat|{2}{R}{R}|4|Sorcery|9
+oBreal?Shelf|1|1|Snow Land|49
+Oblietra?e|{6}{R}{R}|8|Sorcery|19
+Moolnight ?agrai?|{3}{B}{B}|5|Instant|41
+Luminesce|{W}|1|Instant|10
+Cabal C?nditio?nng|{6}{B}|7|Sorcery|14
+Rangers' Paht|{3}{G}|4|Sorcery|13
+Cream o fthe rCop|{1}{G}|2|Enchantment|25
+Tmi? Rve?rsal|{3}{U}{U}|5|Sorcery|16
+Wnidswept Heath|1|1|Land|59
+Dingus Sta?f|{4}|4|Artifact|5
+rDug?e Spell|{B}{B}|2|Enchantment|59
+Baarls' Epxer?ise|{3}{U}{U}|5|Sorcery|14
+Kazandu Reufge|1|1|Land|19
+?ezzreet' s?Btrayal|{3}{U}{B}|5|Sorcery|52
+Chadr??'s Igniio?n|{3}{R}{R}|5|Sorcery|34
+Fli?ng Cr?ne Tehcinque|{3}{U}{R}{W}|6|Instant|10
+Wariorr' sHnoor|{2}{W}|3|Instant|5
+Trun otS l?g|{3}{R}{R}|5|Sorcery|22
+Powe ?rn?i|{X}{U}|1|Instant|41
+Riches|{5}{U}{U}|7|Sorcery|2
+mSoek|{R}{R}|2|Enchantment|35
+Suerpsz?e|{1}{G}|2|Instant|13
+Rings o fB?rgthh?arth|{3}|3|Artifact|4
+Unholy Citadel|1|1|Land|36
+Scat?er the Seeds|{3}{G}{G}|5|Instant|22
+Aajn?s' Presenec|{W}|1|Instant|39
+Sha?etrstorm|{2}{R}{R}|4|Sorcery|39
+Yaheni'sn?Expertise|{2}{B}{B}|4|Sorcery|4
+Ey eSpy|{U}|1|Sorcery|33
+uSnke?C ity|{U}{U}|2|Enchantment|50
+??st fo Endu?acne|{2}{W}{W}|4|Enchantment|28
+Exclud?|{2}{U}|3|Instant|29
+?or?e? Fall|{2}{G}|3|Enchantment|31
+Vensre's Difufs??n|{2}{U}|3|Instant|28
+Mirrr oSehen|{1}{U/R}{U/R}|3|Enchantment|15
+Executioner?' Capsule|{B}|1|Artifact|50
+Taste of Blo?d|{B}|1|Sorcery|22
+Lecehes|{1}{W}{W}|3|Sorcery|47
+Siganl ?he Calsn|{R}{G}|2|Instant|44
+hSower ofS parks|{R}|1|Instant|36
+Ruhs ?f Ice|{U}|1|Sorcery|27
+Arcane Spyglass|{4}|4|Artifact|45
+Ma?neti? T?ef?|{R}|1|Instant|38
+Polymoprhist's Jest|{1}{U}{U}|3|Instant|12
+Everglaeds|1|1|Land|39
+iWngS ah?ds|{1}{W}{W}|3|Instant|22
+Wnaedre?'s Twig|{1}|1|Artifact|55
+Resuscita?e|{1}{G}|2|Instant|2
+Az?riu sCha?ceyr|1|1|Land|53
+eTmpt with Ref?ections|{3}{U}|4|Sorcery|42
+nIvigoratin?gBo??|{1}{G}|2|Enchantment|24
+Blood Lust|{1}{R}|2|Instant|26
+Ba? Rive?|1|1|Land|51
+C?th?r's?r?usade|{3}{W}{W}|5|Enchantment|29
+Ashen Powder|{2}{B}{B}|4|Sorcery|24
+iBomass M?t??ion|{X}{G/U}{G/U}|2|Instant|31
+Haromni cConvergence|{2}{G}|3|Instant|9
+Sylvan Lbi??ry|{1}{G}|2|Enchantment|1
+Vitco?y|{2}{W}|3|Sorcery|8
+Essence Fracutre|{3}{U}{U}|5|Sorcery|15
+Vine Snaer|{2}{G}|3|Instant|37
+??rfend|{1}{W}|2|Instant|1
+Flames fo the Bloo? Hnad|{2}{R}|3|Instant|50
+Rhysit? Lightni?g|{2}{R}|3|Instant|18
+Spinero?k Knoll|1|1|Land|13
+Pris?atic Boon|{X}{W}{U}|2|Instant|12
+Chimer?c Ido?|{3}|3|Artifact|30
+Hugnyr Falmes|{2}{R}|3|Instant|48
+Portclul?s|{4}|4|Artifact|11
+FeralI n?itnct|{1}{G}|2|Instant|2
+R?nedH ?lo|{W}{W}|2|Enchantment|47
+Remtoe F?mr|1|1|Land|29
+Ma?a Cache|{1}{R}{R}|3|Enchantment|42
+iGfts Given|{3}{U}|4|Instant|43
+Naya Charm|{R}{G}{W}|3|Instant|51
+Pyr?amncer's??w?th|{2}{R}|3|Enchantment|54
+B?lbe' sAromr|{3}|3|Artifact|60
+Jump|{U}|1|Instant|10
+eDath's Du?t|{2}{B}|3|Sorcery|55
+Sou?? pkie|{5}{B}{B}|7|Instant|6
+DaehtR attle|{5}{B}|6|Instant|44
+F?ritio?|{G}|1|Sorcery|33
+Root? of AllE?vli|1|1|Scheme|26
+Gl?ma of Ressitance|{4}{W}|5|Instant|10
+Veiled Sentry|{U}|1|Enchantment|25
+Jnador's Ring|{6}|6|Artifact|31
+Relfecting Pool|1|1|Land|58
+Tra?sure Trvoe|{2}{U}{U}|4|Enchantment|59
+Mourner's?S?ield|{4}|4|Artifact|6
+Cla?orps|{3}|3|Artifact|15
+Kirtar's Warth|{4}{W}{W}|6|Sorcery|20
+Cru?ain of Light|{1}{W}|2|Instant|46
+?ush|{3}{G}|4|Sorcery|48
+Implement of Imporveemnt|{1}|1|Artifact|10
+Akroma's Beslsing|{2}{W}|3|Instant|1
+Turn ?gainst|{4}{R}|5|Instant|32
+Nekrtaaal Avatar|1|1|Vanguard|1
+?ether St?ng|{3}{R}|4|Enchantment|3
+G?aephsot|{1}{R}|2|Sorcery|59
+Ar??w St?m?|{3}{R}{R}|5|Sorcery|34
+?egedremian|{2}{U}{U}|4|Sorcery|1
+Sca?? Tactics|{B}|1|Instant|12
+TemporaryI nsanity|{3}{R}|4|Instant|34
+?irefor?er's Pzuzlekno?|{2}|2|Artifact|55
+Surevyor's ??ope|{2}|2|Artifact|2
+rPovidenc?|{5}{W}{W}|7|Sorcery|30
+P?ek|{U}|1|Instant|31
+Epihpany ta the Dorwnyard|{X}{U}|1|Instant|15
+Llanowar Re?or?|1|1|Land|36
+Fla? eaJ?|{R}|1|Sorcery|46
+Shared Animo?tiy|{2}{R}|3|Enchantment|6
+C?osis'? Charm|{U}{B}{R}|3|Instant|57
+I ?now All,? ISee All|1|1|Ongoing Scheme|48
+Sang?ite Sureg|{4}{R}{G}|6|Sorcery|9
+Ca?eful Consid?rtaino|{2}{U}{U}|4|Instant|24
+Uinfied Strkie|{W}|1|Instant|36
+Molten ?siast?r|{X}{R}{R}|2|Sorcery|8
+Hellfire|{2}{B}{B}{B}|5|Sorcery|40
+aWylay|{2}{W}|3|Instant|58
+Dci?tae fo ?rebos|{3}{B}{B}|5|Enchantment|2
+????s?oft eh ?nvil|{1}{R}|2|Instant|12
+?altcrusted Stepep|1|1|Land|33
+Wo?dweaver?s Puzz??nokt|{2}|2|Artifact|55
+aLke ?ft he Dead|1|1|Land|51
+Trip irWe|{2}{G}|3|Sorcery|54
+Induce Paranoia|{2}{U}{U}|4|Instant|47
+Mae? of?Ith|1|1|Land|35
+Rsetock|{3}{G}{G}|5|Sorcery|51
+Elkin Bottle|{3}|3|Artifact|20
+Synthetic Destiny|{4}{U}{U}|6|Instant|21
+A?geilc Purge|{2}{W}|3|Sorcery|17
+Living Pl?ne|{2}{G}{G}|4|World Enchantment|22
+Call th? Sykb?e?ker|{5}{U/R}{U/R}|7|Sorcery|6
+Prismatic?Ci?cle|{2}{W}|3|Enchantment|24
+??gai? Slip|{B}|1|Instant|48
+Boon o? Erebos|{B}|1|Instant|41
+L?nten-rLti ?r?ayeard|1|1|Land|22
+SeismicR upture|{2}{R}|3|Sorcery|45
+R?trea? to aKzadn?|{2}{G}|3|Enchantment|60
+Trap Es??cee|{G}{U}{R}|3|Instant|34
+Common Cause|{2}{W}|3|Enchantment|30
+Tower eDf?nse|{1}{G}|2|Instant|12
+Seer'sV? si?o|{2}{U}{B}|4|Enchantment|55
+Goblin Grenda?|{R}|1|Sorcery|51
+Min dBomb|{U}|1|Sorcery|25
+For??doi?g Riusn|1|1|Land|42
+Br?odB irthign|{1}{R}|2|Sorcery|30
+Rfoello??s Gift|{G}|1|Sorcery|37
+Baku ?tla?|{2}|2|Artifact|17
+Rueno ?P r?tetio?n:?Black|{1}{W}|2|Enchantment|42
+Boil|{3}{R}|4|Instant|28
+Untamed Wilds|{2}{G}|3|Sorcery|16
+?ime to Feed|{2}{G}|3|Sorcery|32
+Dviin?eReckoning|{2}{W}{W}|4|Sorcery|39
+DeepA nalsyi?|{3}{U}|4|Sorcery|54
+Restrain|{2}{W}|3|Instant|7
+laFme uBr?t|{1}{R}|2|Instant|39
+I?nite?Disorde?|{1}{R}|2|Instant|59
+Truce|{2}{W}|3|Instant|50
+Where Anc?e?ts?Tread|{4}{R}|5|Enchantment|42
+vorIy Tow?r|{1}|1|Artifact|48
+Dsiorient|{3}{U}|4|Instant|52
+Brilliant Sp?ct?um|{3}{U}|4|Sorcery|10
+??umb?e|{G}|1|Instant|44
+?urde? ? o?reed|{3}{B}|4|Instant|14
+?Crse of Mairt Lage|{3}{R}{R}|5|Enchantment|51
+IronW ill|{W}|1|Instant|16
+Un??adake, the Cloud Keeper|1|1|Legendary Land|58
+Insidious D?eams|{3}{B}|4|Instant|5
+Part?the Waterveil|{4}{U}{U}|6|Sorcery|46
+Feato f R?si?tance|{1}{W}|2|Instant|32
+Po?e?stone Mineifeld|{2}{R}{W}|4|Enchantment|9
+Snow Mercy|{2}{W}{W}|4|Snow Enchantment|10
+Elven Cache|{2}{G}{G}|4|Sorcery|8
+Aut?orityo f the on?suls|{W}|1|Enchantment|18
+Br??al Expulsio?|{2}{U}{R}|4|Instant|5
+aB?ishme?t Dec?ee|{3}{W}{W}|5|Instant|44
+Prima lRage|{1}{G}|2|Enchantment|1
+Gathre the Twonsfolk|{1}{W}|2|Sorcery|47
+Natural Aff?nity|{2}{G}|3|Instant|40
+Cotnamnait?on|{2}{B}|3|Enchantment|16
+T?ek Up Arms|{4}{W}|5|Instant|53
+Tranquil Grov?|{1}{G}|2|Enchantment|27
+?e?rile I?gm?ntaino|{2}{G}{G}|4|Sorcery|3
+eM?tlspinner's Puzzleknto|{2}|2|Artifact|22
+Greve nil-Vec|1|1|Vanguard|25
+Double N?g?tive|{U}{U}{R}|3|Instant|7
+Rough|{1}{R}|2|Sorcery|24
+anMa ?eism|{1}{R}|2|Sorcery|32
+Wrat? of God|{2}{W}{W}|4|Sorcery|28
+?vermaster|{R}|1|Sorcery|26
+?unken Hope|{3}{U}{U}|5|Enchantment|25
+Midn'? Desrie|{4}{U}{U}|6|Sorcery|51
+View fro ?Abov?|{1}{U}|2|Instant|49
+Fiery Co?cl?sion|{1}{R}|2|Instant|52
+Prahv, Spires of rOder|1|1|Land|10
+?vinize|{1}{U}|2|Instant|58
+Crystal Rod|{1}|1|Artifact|29
+aMrdu Chram|{R}{W}{B}|3|Instant|58
+Th eCheese St?dns lAone|{4}{W}{W}|6|Enchantment|22
+Ech?nig Bo?n|1|1|Conspiracy|22
+Weh?stone|{3}|3|Artifact|36
+S?aff of the A??e|{3}|3|Artifact|12
+Skul? Rend|{3}{B}{R}|5|Sorcery|6
+Serpetnnie ?pik?|{5}{R}{R}|7|Sorcery|49
+Er?ham ?ij???Avatar|1|1|Vanguard|18
+Venomous iVnes|{2}{G}{G}|4|Sorcery|42
+M?sfortu?e|{1}{B}{R}{G}|4|Sorcery|5
+Mox Sa?phir?|{0}|0|Artifact|46
+?esne Canopy|{1}{G}|2|Enchantment|13
+Wlecome t othe?F?ld|{2}{U}{U}|4|Sorcery|8
+?yrotechnics|{4}{R}|5|Sorcery|21
+syPh?ci Ba?irer|{U}{U}|2|Instant|2
+Ray of ?istorti?n|{3}{W}|4|Instant|26
+Mire's To?l|{B}|1|Sorcery|8
+Wea?on S?ger|{R}|1|Instant|51
+Socu??rfom Exisetnce|{7}|7|Instant|57
+Twins?rike|{3}{B}{R}|5|Instant|54
+Rol?ngi Stons?|{1}{W}|2|Enchantment|11
+Cenosrhsip|{U}|1|Enchantment|1
+K?rplusan Forest|1|1|Land|19
+Wild Hugner|{2}{G}|3|Instant|54
+eaPrl Sh?rd|{3}|3|Artifact|39
+?naciton Injunctio?|{1}{U}|2|Sorcery|56
+?owrds to?Ploswhares|{W}|1|Instant|37
+Arm?with Aetehr|{2}{U}|3|Sorcery|9
+M?sti c?etling|{3}{G}|4|Instant|17
+?rimal?Order|{2}{G}{G}|4|Enchantment|26
+Divine ??ngr?gatoin|{3}{W}|4|Sorcery|32
+Dark ?ntimatiosn|{2}{U}{B}{R}|5|Sorcery|27
+R?id Bomb?drment|{2}{R}|3|Enchantment|18
+Balfeul Staer|{2}{U}|3|Sorcery|43
+Phyrex?an Totem|{3}|3|Artifact|7
+False M?u?ring|{G}|1|Sorcery|26
+?kashasa's Disdani|{2}{U}|3|Instant|36
+Reap n?Ielle?c|{X}{2}{U}{B}|4|Sorcery|34
+?raalen??f teh Mornsong Avatar|1|1|Vanguard|11
+Minds?Aglo?|{U}|1|Sorcery|6
+Pr?msa?tcL ?ns|{2}|2|Artifact|9
+CalmignV ?ese|{3}{G}|4|Sorcery|8
+?enear'ls Regalai|{3}|3|Artifact|27
+C?er?ed Cnofess?on|{4}{U/B}|5|Sorcery|55
+Earthen Arms|{1}{G}|2|Sorcery|17
+Quicska?d|1|1|Land|30
+Accelera?td Mutat?on|{3}{G}{G}|5|Instant|11
+Sleight ofM ind|{U}|1|Instant|36
+Kamahl's Summons|{3}{G}|4|Sorcery|57
+?uldgoen Brawl|{2}{R}|3|Enchantment|34
+Booldchie ?Ascension|{B}|1|Enchantment|40
+Fveee?dC onv??l?ons|{B}{B}|2|Enchantment|23
+Scapegoat|{W}|1|Instant|55
+Relea?e|{4}{R}{W}|6|Sorcery|46
+Di?ersionary Tact?cs|{3}{W}|4|Enchantment|10
+Rekindled Flame|{2}{R}{R}|4|Sorcery|45
+Archangle's Li?ht|{7}{W}|8|Sorcery|23
+?oa ro fthe Kha|{1}{W}|2|Instant|50
+Tranquil?Thic?te|1|1|Land|1
+Maz? of Shadows|1|1|Land|4
+Void?Snar?|{U}|1|Sorcery|40
+Rsepit?|{1}{G}|2|Instant|9
+Backda?ft|{1}{R}|2|Instant|6
+?Ahotic Wisps|{B}|1|Instant|45
+?laensing Bema|{4}{R}|5|Instant|6
+Meatl?ic Ma?tery|{2}{R}|3|Sorcery|50
+Pyrmadi ?f?the ?anh?eon|{1}|1|Artifact|36
+R?scue|{U}|1|Instant|30
+Bra?ngeyse?|{X}{U}{U}|2|Sorcery|25
+F?ll Moon's?Rise|{1}{G}|2|Enchantment|19
+Sepllwev?er Helix|{3}|3|Artifact|44
+Killnig Wave|{X}{B}|1|Sorcery|54
+Putr?factio?|{4}{B}|5|Enchantment|55
+Nx?iuos Revival|{G/P}|1|Instant|29
+Basalt Mo?n?ith|{3}|3|Artifact|46
+Blaze ?? Glory|{W}|1|Instant|41
+Mult??i|1|1|Vanguard|59
+Dust ?wol|1|1|Land|53
+Fragmetnize|{W}|1|Sorcery|60
+S?ur??? ltoke? card|1|1||10
+lEephat ?Resurge?ce|{1}{G}|2|Sorcery|17
+Concealed Cuortyadr|1|1|Land|30
+Candles of ?e?g|{2}|2|Artifact|9
+T?easure ?r?sie|{7}{U}|8|Sorcery|5
+Great Defe?der|{W}|1|Instant|54
+Een?r Bylot|{X}{R}{W}|2|Sorcery|16
+?ltar fo De?mntia|{2}|2|Artifact|30
+Gerrard's Battl ?Cry|{W}|1|Enchantment|20
+Bronze ?able?|{6}|6|Artifact|25
+Kar?' sTo???|{U}{U}|2|Instant|5
+Beendict?on?of?Moons|{W}|1|Sorcery|21
+rO?ovh Ke?rune|{3}|3|Artifact|49
+Get?' s?r?moire|{4}|4|Artifact|17
+Terirtori?l?Dispuet|{4}{R}{R}|6|Enchantment|57
+Destr??tvie Reve?yr|{R}{G}|2|Instant|45
+Incite yHsteria|{2}{R}|3|Sorcery|52
+Reve l?o t?e Fallen oGd|{3}{R}{R}{G}{G}|7|Sorcery|35
+Galre? ? Hreesy|{1}{W}|2|Sorcery|16
+Dera ?Cha?ge|{3}{B}|4|Sorcery|23
+Beas? Attack|{2}{G}{G}{G}|5|Instant|46
+T?ra?n?orge|{3}|3|Artifact|38
+Paradoxcial?O?t?o?e|{3}{U}|4|Instant|45
+??rcle fo Fla?e|{1}{R}|2|Enchantment|23
+uRgegd iHghlands|1|1|Land|36
+Elixir of Immor?ality|{1}|1|Artifact|2
+?P? Fight|{1}{R/G}|2|Instant|57
+uSrging eDmetnia|{1}{B}|2|Sorcery|13
+D?eru's e?solve|{W}|1|Instant|25
+Syncopate|{X}{U}|1|Instant|35
+S?etle?in? Suns|{1}{R}{R}|3|Sorcery|34
+Planar Despair|{3}{B}{B}|5|Sorcery|42
+Bond fo Agony|{X}{B}|1|Sorcery|2
+Sahmb?ing Ven?|1|1|Land|41
+Mainfold Insigths|{2}{U}|3|Sorcery|36
+Puls ?of Lanl?war|{3}{G}|4|Enchantment|54
+?axoss' T?omnet|{3}{B}|4|Enchantment|9
+Pale Mono|{1}{U}|2|Instant|33
+U??et o ?eed|{B}{B}|2|Instant|39
+Ifnrena? H?rvest|{1}{B}|2|Sorcery|9
+Towe? of the?M?gisrtate|1|1|Land|53
+S?lvan e??lmaation|{3}{G}{W}|5|Instant|20
+eDath ?ish|{1}{B}{B}|3|Sorcery|25
+Impl?de|{4}{R}|5|Sorcery|33
+Ma?netciF lux|{2}{U}|3|Instant|38
+Lava Axe|{4}{R}|5|Sorcery|20
+Ent??rng|{4}{B}{R}|6|Sorcery|22
+Vo?r?t'hs Strongh?dl|1|1|Legendary Land|46
+Mih?ts?one|{4}|4|Artifact|2
+De?ensive Fomration|{W}|1|Enchantment|49
+Hind?riv?e?|{2}{G}|3|Instant|53
+?acred Rie?s|{W}|1|Instant|37
+Rite ofR eplic?iton|{2}{U}{U}|4|Sorcery|23
+Colossal H?riocs|{2}{G}|3|Instant|44
+Bles??d W?nd|{7}{W}{W}|9|Sorcery|21
+Fir?y Temper|{1}{R}{R}|3|Instant|14
+Tezzer?t's?G?mibt|{3}{U/P}|4|Sorcery|56
+Well of L?fe|{4}|4|Artifact|1
+Dig Thr?ugh iTme|{6}{U}{U}|8|Instant|31
+Mdin?g?t Hanuting|{2}{W}|3|Instant|18
+Implement ?f Combustoin|{1}|1|Artifact|59
+S?rene Sunset|{X}{G}|1|Instant|25
+Watre?ei? Cavern|1|1|Land|34
+Le?d|{3}{G}|4|Sorcery|37
+Shadwos of the?Past|{1}{B}|2|Enchantment|16
+Ivoyr??harm|{W}|1|Instant|18
+?otr To?n|1|1|Land|13
+City of Shadows|1|1|Land|33
+Purelace|{W}|1|Instant|39
+Verdan? ?atacombs|1|1|Land|36
+?siion Seikns|{1}{U}|2|Instant|27
+Contrcat fom? Below|{B}|1|Sorcery|48
+Door ?o Nothingnses|{5}|5|Artifact|58
+Inicte|{R}|1|Instant|36
+Creeping Mold|{2}{G}{G}|4|Sorcery|37
+Dakmor?S?lavge|1|1|Land|40
+Angelhear?tV?al|{5}|5|Artifact|49
+??le ?i?ght|{B}{B}|2|Instant|21
+Ebo?y?Horse|{3}|3|Artifact|50
+Guttural Res?osne|{R/G}|1|Instant|42
+?ernee Rememrbance|{G}|1|Sorcery|22
+Soldevi Exaca?tions|1|1|Land|11
+Eletcri??e?y|{R}|1|Instant|46
+?S?va? ??si?|1|1|Land|19
+Mi?calcul?tion|{1}{U}|2|Instant|18
+Golem oFundry|{3}|3|Artifact|58
+hSelter?ng Word|{1}{G}|2|Instant|33
+S???ngli?n Soot|{2}{B}|3|Instant|60
+Glimpse ?he ?tFure|{2}{U}|3|Sorcery|46
+?imension? lBreach|{5}{W}{W}|7|Sorcery|52
+Oath of Chan?ra|{1}{R}|2|Legendary Enchantment|35
+Co?volute|{2}{U}|3|Instant|40
+Duress|{B}|1|Sorcery|29
+Se?ring Medit?tion|{1}{R}{W}|3|Enchantment|53
+eHta?Stroke|{2}{R}|3|Enchantment|6
+Overgronw sEatte|{B}{G}{W}|3|Enchantment|27
+?ath ?f Gidoen|{2}{W}|3|Legendary Enchantment|49
+Bo?in? g?aes|{3}{R}|4|Sorcery|39
+?gin's Nxues|{5}|5|Legendary Artifact|18
+Mind ?un??rl|{1}{U}{B}|3|Sorcery|56
+Azrou?s?P?oy|{1}{W}{W}{U}|4|Instant|35
+Sh?r dC?nveregc?e|{3}{G}|4|Sorcery|39
+Sleihgto ??Hand|{U}|1|Sorcery|59
+ecHatomb|{1}{B}{B}|3|Enchantment|4
+Mayael?s A?ia|{R}{G}{W}|3|Enchantment|2
+Eye fo D?om|{4}|4|Artifact|14
+Desipse|{B}|1|Sorcery|2
+e?lling T?em|{1}{U}|2|Instant|15
+Vibrating Sphere|{4}|4|Artifact|38
+Ashn?'?s Cylix|{2}|2|Artifact|29
+Dream Cache|{2}{U}|3|Sorcery|50
+Phyr??ina Rebirth|{4}{W}{W}|6|Sorcery|53
+Staf fof oD?intaion|{3}|3|Artifact|41
+T?emsfi?er|{5}|5|Artifact|45
+Tr?mble|{1}{R}|2|Sorcery|22
+Sun ?rpo?et|{2}|2|Artifact|50
+Mne?onic N??us|{3}{U}|4|Instant|49
+Call to teh ?rave|{4}{B}|5|Enchantment|17
+Li?it??R eso?rces|{W}|1|Enchantment|55
+L?sh?Out|{1}{R}|2|Instant|7
+rCush ?f?Te?talces|{4}{U}{U}|6|Sorcery|7
+S?ave?Off|{W}|1|Instant|26
+Barrin|1|1|Vanguard|30
+L?rking kSirge|{1}{B}|2|Enchantment|60
+Loss|{2}{B}|3|Instant|38
+Cluthc of the U?de?city|{1}{U}{U}{B}|4|Instant|51
+Submerge|{4}{U}|5|Instant|33
+Transugild Promendae|1|1|Land|56
+lGy?? of Dsetrutcion|{R}|1|Instant|7
+Da?ip?g Field|{2}{W}|3|Enchantment|13
+Solidar?ty|{3}{W}|4|Instant|58
+Rude Awake?nig|{4}{G}|5|Sorcery|8
+Sha??ering P?lse|{1}{R}|2|Instant|35
+Froiyisa? oTtem|{3}|3|Artifact|16
+e?thersopu?s|{3}{U}{U}|5|Instant|36
+Aregnt Mutatoin|{2}{U}|3|Instant|22
+Crub?ling San??tary|{5}|5|Artifact|24
+Tooth ?f Chis?-Goria|{3}|3|Artifact|21
+?iurle? twSipe|{B}|1|Instant|51
+B?tihin ?Pod|{3}{G/P}|4|Artifact|49
+Indestruct?ile uAr?|{W}|1|Instant|39
+?s?hci? Tran?f?r|{4}{U}|5|Sorcery|55
+Thoughtsieze|{B}|1|Sorcery|17
+?giht of the M?sses|{G}|1|Instant|56
+A?in?nt Gurdge|{1}{R}|2|Instant|52
+Okin,a Temple to the G??nfd?thers|1|1|Legendary Land|57
+St??ly ?esolve|{1}{G}|2|Enchantment|57
+?hovnig?Mtach|{2}{U}|3|Instant|31
+Mind?Twit?|{X}{B}|1|Sorcery|47
+Muscle Bu?ts|{1}{G}|2|Instant|1
+Invsaiv euSr?gry|{U}|1|Instant|59
+DawnC a?rm|{1}{W}|2|Instant|2
+Iro?nrgiht's Cleansing|{2}{W}|3|Sorcery|42
+?la?t?from the Past|{2}{R}|3|Instant|13
+Proc?sso rs?sau?t|{1}{R}|2|Sorcery|4
+Spire o fInds?tyr|1|1|Land|5
+Word ?? B?a?ting|{1}{R}|2|Instant|12
+Girn?dotne|{1}|1|Artifact|8
+Gid?on's Inetr?n?tion|{2}{W}{W}|4|Enchantment|9
+Sight of the Scale?l?ds|{4}{G}|5|Enchantment|45
+Cu ?hte eTthers|{2}{U}{U}|4|Sorcery|4
+Flxu|{2}{U}|3|Sorcery|21
+Else?h?re??alsk|{2}|2|Artifact|17
+Scorhc?d?Earth|{X}{R}|1|Sorcery|18
+Xe?ograft|{4}{U}|5|Enchantment|10
+Trinisphere|{3}|3|Artifact|39
+aDrkstee Pel???nt|{2}|2|Artifact|45
+Plnaar Collapse|{1}{W}|2|Enchantment|14
+Aether Flash|{2}{R}{R}|4|Enchantment|52
+lEcetrostaitc?Botl|{R}|1|Instant|46
+DarniL ife|{X}{1}{B}|2|Sorcery|25
+Otha of Druids|{1}{G}|2|Enchantment|51
+Thalao?s Lowlands|1|1|Land|54
+ntIerpret t?e?S?gns|{5}{U}|6|Sorcery|26
+Ch?in of A?id|{3}{G}|4|Sorcery|35
+Ti?ania's Boon|{3}{G}|4|Sorcery|59
+Gruu la?? Plow|{4}|4|Artifact|19
+OrzhovB asili?a|1|1|Land|60
+Scouting Trek|{1}{G}|2|Sorcery|26
+Desloat?on|{1}{B}{B}|3|Enchantment|5
+aCl? of the Wild|{2}{G}{G}|4|Enchantment|50
+Trerarion|{1}|1|Artifact|52
+Ev?ultion?Vat|{3}|3|Artifact|7
+Batte lofW ist|{3}{U}{U}|5|Enchantment|30
+Ganutles? of Chaos|{5}|5|Artifact|56
+B?i?er F?ud|{4}{R}|5|Enchantment|32
+Ccylop?an?T?mb|{4}|4|Artifact|12
+Elven ?rot?es?|{G}|1|Enchantment|39
+uBried R?i?|1|1|Land|55
+Reflectin? Mirror|{4}|4|Artifact|19
