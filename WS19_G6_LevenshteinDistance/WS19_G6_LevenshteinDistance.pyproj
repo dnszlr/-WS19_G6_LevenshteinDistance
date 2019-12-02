@@ -37,7 +37,7 @@
     <Compile Include="mainTest.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="UnitTests\module1.py">
+    <Compile Include="UnitTests\CardCollectorTest.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="UnitTests\CardRepairTest.py">

@@ -47,12 +47,17 @@ class CardRepair(object):
     def insert(self, i, c):
         assert(i > 0) #Precondition
 
-        assert() #Postcondition (Letter c ist an index i)
+        self.card.name = self.card.name[:i - 1] + c + self.card.name[i - 1:]
+
+
+        assert(self.card.name[i] == c) #Postcondition (Letter c ist an index i)
         pass
 
     #deletes the letter at the index i
     def delete(self, i):
         assert(i > 0) #Precondition
+
+        self.card.name = self.card.name[0 : i :] + self.card.name[i + 1 : :]
 
         assert() #Postcondition (Alte Wortlaenge - 1)
         pass
@@ -60,6 +65,8 @@ class CardRepair(object):
     #replaces the letter at index i with c.
     def replace(self, i, c):
         assert(i > 0) #Precondition (Letter c ist an index i)
+
+        self.card.name = self.card.name[:i].replace(self.card.name[i], c) + line[i:]
 
         pass
 
