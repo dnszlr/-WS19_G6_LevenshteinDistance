@@ -14,20 +14,20 @@ class CardRepair(object):
         cardScramName =list(referenceCard.name)
         x = len(cardRefName)
         y = len(cardScramName)
-        self.matrix = [[0 for i in range(x+1)] for i in range(y+1)]
+        self.matrix = [[0 for i in range(x+2)] for i in range(y+2)]
         
         self.matrix[0][0] = 0
-        for i in range(0, x):
+        for i in range(0, x+1):
             self.matrix[i][0] = i
-        for j in range (0, y):
+        for j in range (0, y+1):
             self.matrix[0][j] = j
         
         
         
-        for j in range(1, y):
-            for i in range(1, x):
+        for j in range(1, y+1):
+            for i in range(1, x+1):
                 c = 1
-                if (self.card.name[i] is referenceCard.name[j]) : 
+                if (self.card.name[i-1] is referenceCard.name[j-1]) : 
                     c = 0
                 rep = self.matrix[i-1][j-1] + c
                 ins = self.matrix[i][j-1] + 1
