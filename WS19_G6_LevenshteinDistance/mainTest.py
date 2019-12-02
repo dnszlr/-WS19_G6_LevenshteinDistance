@@ -1,4 +1,3 @@
-
 def main():
     stringS =list( "interestsfdfd")
     stringT = list("industry")
@@ -15,16 +14,13 @@ def main():
                  matrix[x][y] = matrix[x-1][y-1]
             else:
                  matrix[x][y] = matrix[x-1][y-1] + 1
-
+                 
     for i in range(len(matrix)):
         for j in range(len(matrix[i])):
             print(matrix[i][j], end=' ')
         print()
 main()
 
-if __name__== "__main__":
-
-    main()
 
 
     

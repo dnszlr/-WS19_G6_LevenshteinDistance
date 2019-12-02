@@ -12,6 +12,9 @@
     <Name>WS19_G6_LevenshteinDistance</Name>
     <RootNamespace>WS19_G6_LevenshteinDistance</RootNamespace>
     <IsWindowsApplication>False</IsWindowsApplication>
+    <TestFramework>unittest</TestFramework>
+    <UnitTestPattern>test*.py</UnitTestPattern>
+    <UnitTestRootDirectory>.</UnitTestRootDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -35,6 +38,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="UnitTests\module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\CardRepairTest.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
