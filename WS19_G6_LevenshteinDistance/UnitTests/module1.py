@@ -14,6 +14,6 @@ class CardCollectorTest(unittest.Testcase):
        self.assertIsNone (brokenCards)
        self.ReadScramble()
        #is List brokenCards filled
-       self.assertIsNotNone(bokenCards)
+       self.assertIsNotNone(brokenCards)
        
       

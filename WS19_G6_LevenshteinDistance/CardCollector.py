@@ -8,8 +8,7 @@ class CardCollector(object):
         self.referenceCards = []
         self.repairedCards = []
     
-    #Reads the scrambled cards from the scrambled.txt-File 
-    #Into brokenCards[]
+    #Reads from a .txt-File into brokenCards[]
     #Returns a new list with cards
     def readScramble(self):
 
@@ -18,7 +17,8 @@ class CardCollector(object):
     #Reads the reference cards from the reference.txt-File
     #into referenceCards[]
     #Returns a new list with cards
-    def readReference(self):
+    def readReference(self, path):
+        assert(path != None) #Preconditon
 
         return None
 
@@ -26,6 +26,7 @@ class CardCollector(object):
     #Parameters:
     #path - create a new file with the given path
     def write(self, path):
+        assert(path != None) #Precondition
 
         return None
 
