@@ -1,39 +1,61 @@
 import os
+from Card import Card
 
 class CardCollector(object):
-    #Description of class
     #Class attributes
 
     def __init__(self):
 
         self.brokenCards = []
-        self.referenceCards = []
+        self.referenceNames = []
         self.repairedCards = []
 
-    #Reads from the a .txt-File into a list
-    #Returns a new list with cards
-    def readReference(self, file):
+    def read(self, path):
+        assert(path != None) #Precondition
+
+        relPath = "../WS19_G6_LevenshteinDistance/Files/" + path + ".txt"
+        textFile = open(relPath, "r")
+
+        assert(textFile != None) #Postcondition
+        return textFile
+
+    #Builds cards from the parameter file and writes them into a self.brokenCards.
+    def buildScrambled(self, file):
         assert(file != None) #Preconditon
 
-        path = "../WS19_G6_LevenshteinDistance/Files/" + file + ".txt"
-        textFile = open(path, r)
+        for line in file:
 
-        return None
+            lineSplit = line.split("|")
+            brokenCard = Card(lineSplit[0], lineSplit[1], lineSplit[2], lineSplit[3], lineSplit[4])
+            self.brokenCards.append(brokenCard)
+
+        assert(len(self.brokenCards) > 0) #Postcondition
+
+    #Reads strings from the parameter file and writes them into a list.
+    #Returns a new list with cards
+    def buildReference(self, file):
+        assert(file != None) #Precondition
+
+        for line in file:
+
+            self.referenceNames.append(str(line))
+
+        assert(len(self.referenceNames) > 0) #Postcondition
 
     #Writes the repairedCards into a selected path
     #Parameters:
     #path - create a new file with the given path
-    def write(self, file):
-        assert(file != None) #Precondition
+    def write(self, path):
+        assert(path != None) #Precondition
 
-        return None
+        file = open("../WS19_G6_LevenshteinDistance/Files/" + path + ".txt", "a")
 
-    def relPath(self, file):
+        for fixedCard in self.repairedCards:
 
-        filePath = os.path.dirname(__file__)
-        relPath = "../WS19_G6_LevenshteinDistance/Files/" + file + ".txt"
-        absFilePath = os.path.join(filePath, relPath)
-        
+            cardString = fixedCard.name + fixedCard.mana + fixedCard.cmc + fixedCard.type + fixedCard.count
+            file.append(cardString)
+
+        assert(len(file.readline) > 0) #Postcondition
 
 
 
