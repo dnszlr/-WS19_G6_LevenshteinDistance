@@ -19,7 +19,7 @@ def main():
         for j in range(len(matrix[i])):
             print(matrix[i][j], end=' ')
         print()
-main()
+
 
 
     

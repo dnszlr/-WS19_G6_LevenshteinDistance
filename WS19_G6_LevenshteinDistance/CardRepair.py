@@ -10,14 +10,19 @@ class CardRepair(object):
     #create the LD-matrix
     def LD(self, referenceCard):
         assert len(self.card.name) >= 1 and  len(referenceCard.name) >= 1
-        x = len(self.card.name)
-        y = len(referenceCard.name)
+        cardRefName = list(self.card.name)
+        cardScramName =list(referenceCard.name)
+        x = len(cardRefName)
+        y = len(cardScramName)
+        self.matrix = [[0 for i in range(x+1)] for i in range(y+1)]
+        
         self.matrix[0][0] = 0
         for i in range(0, x):
             self.matrix[i][0] = i
         for j in range (0, y):
             self.matrix[0][j] = j
-                           
+        
+        
         
         for j in range(1, y):
             for i in range(1, x):
