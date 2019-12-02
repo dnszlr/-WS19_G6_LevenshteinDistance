@@ -24,7 +24,6 @@ class CardCollector(object):
         assert(file != None) #Preconditon
 
         for line in file:
-
             lineSplit = line.split("|")
             brokenCard = Card(lineSplit[0], lineSplit[1], lineSplit[2], lineSplit[3], lineSplit[4])
             self.brokenCards.append(brokenCard)
@@ -37,7 +36,6 @@ class CardCollector(object):
         assert(file != None) #Precondition
 
         for line in file:
-
             self.referenceNames.append(str(line))
 
         assert(len(self.referenceNames) > 0) #Postcondition
@@ -49,9 +47,7 @@ class CardCollector(object):
         assert(path != None) #Precondition
 
         file = open("../WS19_G6_LevenshteinDistance/Files/" + path + ".txt", "a")
-
         for fixedCard in self.repairedCards:
-
             cardString = fixedCard.name + fixedCard.mana + fixedCard.cmc + fixedCard.type + fixedCard.count
             file.append(cardString)
 

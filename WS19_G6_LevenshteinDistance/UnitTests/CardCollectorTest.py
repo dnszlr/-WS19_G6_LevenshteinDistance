@@ -3,17 +3,18 @@ import CardCollector
 
 class CardCollectorTest(unittest.Testcase):
     def setUp(self):
+        self.collecter = CardCollector()
 
-         pass
-
-    def tearDown(self):
+    def testRead(self):
         pass
 
-    def testReadScramble(self):
-        #is List brokenCards empty
-       self.assertIsNone (brokenCards)
-       self.ReadScramble()
-       #is List brokenCards filled
-       self.assertIsNotNone(brokenCards)
+    def testBuildScrambled(self):
+        pass
+
+    def testBuildReference(self):
+        pass
+    def testWrite(self):
+
+        pass
        
       
