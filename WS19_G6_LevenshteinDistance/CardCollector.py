@@ -18,7 +18,8 @@ class CardCollector(object):
     #Reads the reference cards from the reference.txt-File
     #into referenceCards[]
     #Returns a new list with cards
-    def readReference(self):
+    def readReference(self, path):
+        assert(path != None) #Preconditon
 
         return None
 
@@ -26,6 +27,7 @@ class CardCollector(object):
     #Parameters:
     #path - create a new file with the given path
     def write(self, path):
+        assert(path != None) #Precondition
 
         return None
 
