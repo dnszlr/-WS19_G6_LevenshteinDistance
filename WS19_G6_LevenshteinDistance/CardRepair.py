@@ -9,9 +9,9 @@ class CardRepair(object):
 
     #create the LD-matrix
     def LD(self, referenceCard):
-        assert len(self.card.name) >= 1 and  len(referenceCard.name) >= 1
+        assert len(self.card.name) >= 1 and  len(referenceCard) >= 1
         cardRefName = list(self.card.name)
-        cardScramName =list(referenceCard.name)
+        cardScramName =list(referenceCard)
         x = len(cardRefName)
         y = len(cardScramName)
         self.matrix = [[0 for i in range(x+2)] for i in range(y+2)]
@@ -27,7 +27,7 @@ class CardRepair(object):
         for j in range(1, y+1):
             for i in range(1, x+1):
                 c = 1
-                if (self.card.name[i-1] is referenceCard.name[j-1]) : 
+                if (self.card.name[i-1] is referenceCard[j-1]) : 
                     c = 0
                 rep = self.matrix[i-1][j-1] + c
                 ins = self.matrix[i][j-1] + 1
