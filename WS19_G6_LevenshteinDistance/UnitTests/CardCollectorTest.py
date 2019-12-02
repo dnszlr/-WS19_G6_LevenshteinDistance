@@ -1,10 +1,12 @@
 import unittest
-import CardCollector
+from CardCollector import CardCollector
 
 class CardCollectorTest(unittest.Testcase):
     def setUp(self):
         self.collecter = CardCollector()
 
+        
+        
     def testRead(self):
         pass
 

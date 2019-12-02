@@ -41,7 +41,7 @@ class CardRepair(object):
     #repair the name of the card from the cards list
     def repair(self, brokenCard, allCards):
         assert(brokenCard != None and allCards != None) #Precondition
-        for i in range (allCards):
+        for i in range (len(allCards)):
             repairMatrix = self.LD(allCards[i])
             procentLen = 100 / len(brokenCard.name)
             match = len(brokenCard.name) - repairMatrix[len(brokenCard.name)][len(allCards[i].name)] * procentLen
