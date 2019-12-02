@@ -2,14 +2,14 @@ class CardRepair(object):
     #description of class
 
     def __init__(self, card, allCards):
-        assert card != None && allCards != None #Precondition
+        assert card != None and allCards != None #Precondition
         self.card = card
         self.allCards = allCards
         self.matrix = [[]]
 
     #create the LD-matrix
     def LD(self, referenceCard):
-        assert len(self.card.name) >= 1 &&  len(referenceCard.name) >= 1
+        assert len(self.card.name) >= 1 and  len(referenceCard.name) >= 1
         x = len(self.card.name)
         y = len(referenceCard.name)
         self.matrix[0][0] = 0
@@ -18,7 +18,7 @@ class CardRepair(object):
         for j in range (0, y):
             self.matrix[0][j] = j
                            
-        self.matrix = [[x]y]
+        
         for j in range(1, y):
             for i in range(1, x):
                 c = 1
@@ -35,7 +35,7 @@ class CardRepair(object):
 
     #repair the name of the card from the cards list
     def repair(self, brokenCard, allCards):
-        assert(brokenCard != None && allCards != None) #Precondition
+        assert(brokenCard != None and allCards != None) #Precondition
         return self.card
 
     #inserts the letter c at the index i
