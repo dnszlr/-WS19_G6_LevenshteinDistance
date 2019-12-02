@@ -8,17 +8,9 @@ class CardCollector(object):
         self.referenceCards = []
         self.repairedCards = []
     
-    #Reads the scrambled cards from the scrambled.txt-File 
-    #Into brokenCards[]
+    #Reads from a .txt-File into brokenCards[]
     #Returns a new list with cards
-    def readScramble(self):
-
-        return None
-
-    #Reads the reference cards from the reference.txt-File
-    #into referenceCards[]
-    #Returns a new list with cards
-    def readReference(self):
+    def read(self):
 
         return None
 
