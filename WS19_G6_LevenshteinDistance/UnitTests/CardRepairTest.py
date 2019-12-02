@@ -3,11 +3,11 @@ from Card import *
 from CardRepair import CardRepair
 
 class Test_CardRepairTest(unittest.TestCase):
-    def test_A(self):
+    def testLD(self):
         
-        card1 = Card("hallooo", 2,4,5,6)
+        card1 = Card("industry", 2,4,5,6)
         card2 = Card("haoo", 2,4,5,6)
-        card3 = Card("halloogo", 2,4,5,6)
+        card3 = Card("interests", 2,4,5,6)
         card4 = Card("hallooffrfo", 2,4,5,6)
         list1 = [card2, card3, card4]
         cardRepair1 = CardRepair(card1, list1)
