@@ -42,7 +42,7 @@ class CardRepair(object):
     def insert(self, i, c):
         assert(i > 0) #Precondition
 
-        assert(splitted[self.card[i]] == c) #Postcondition
+        assert() #Postcondition (Letter c ist an index i)
         pass
 
     #deletes the letter at the index i
@@ -54,9 +54,8 @@ class CardRepair(object):
 
     #replaces the letter at index i with c.
     def replace(self, i, c):
-        assert(i > 0) #Precondition
+        assert(i > 0) #Precondition (Letter c ist an index i)
 
-        assert(splitted[self.card[i]] == c) #Postcondition
         pass
 
 
