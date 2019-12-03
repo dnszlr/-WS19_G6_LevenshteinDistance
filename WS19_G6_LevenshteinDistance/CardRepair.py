@@ -34,7 +34,7 @@ class CardRepair(object):
                 delete = self.matrix[i-1][j] + 1
                 self.matrix[i][j] = min(rep, ins, delete)
 
-        
+
 
         return self.matrix
 

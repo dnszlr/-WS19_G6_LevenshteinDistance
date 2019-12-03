@@ -10,14 +10,14 @@ class CardCollector(object):
         self.referenceNames = []
         self.repairedCards = []
 
-    def read(self, path):
+    def readFile(self, path):
         assert(path != None) #Precondition
 
-        relPath = "../WS19_G6_LevenshteinDistance/Files/" + path + ".txt"
-        textFile = open(relPath, "r")
-
-        assert(textFile != None) #Postcondition
-        return textFile
+        relPath = "C:/Users/denni/source/repos/WS19_G6_LevenshteinDistance/WS19_G6_LevenshteinDistance/Files/reference.txt" #"../WS19_G6_LevenshteinDistance/Files/" + path + ".txt"
+        f = open(relPath, "r+")
+        assert(f != None) #Postcondition
+        f.close()
+        return f
 
     #Builds cards from the parameter file and writes them into a self.brokenCards.
     def buildScrambled(self, file):
@@ -43,15 +43,18 @@ class CardCollector(object):
     #Writes the repairedCards into a selected path
     #Parameters:
     #path - create a new file with the given path
-    def write(self, path):
+    def writeFile(self, path):
         assert(path != None) #Precondition
 
-        file = open("../WS19_G6_LevenshteinDistance/Files/" + path + ".txt", "a")
+        f = open(path, "w+")
+        #open("../WS19_G6_LevenshteinDistance/Files/" + path + ".txt", "rb")
         for fixedCard in self.repairedCards:
             cardString = fixedCard.name + fixedCard.mana + fixedCard.cmc + fixedCard.type + fixedCard.count
-            file.append(cardString)
+            f.write(cardString)
 
-        assert(len(file.readline) > 0) #Postcondition
+        f.close()
+
+        #assert(len(f.readline) > 0) #Postcondition
 
 
 
