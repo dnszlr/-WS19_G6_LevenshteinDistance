@@ -11,8 +11,7 @@ class CardCollectorTest(unittest.TestCase):
     def testRead(self):
         
         file = self.collector.readFile("reference")
-        x = file.readline
-        print(x)
+        print(file.read())
 
     def testBuildScrambled(self):
         pass
@@ -22,9 +21,9 @@ class CardCollectorTest(unittest.TestCase):
 
     def testWriteFile(self):
 
-        repaired = [Card("test", "2", "3", "one", "3")]
+        repaired = [Card("test", "4", "4", "one", "3")]
         self.collector.repairedCards = repaired
-        self.collector.writeFile("test.txt")
+        self.collector.writeFile("test")
 
 if __name__ == '__main__':
     unittest.main()

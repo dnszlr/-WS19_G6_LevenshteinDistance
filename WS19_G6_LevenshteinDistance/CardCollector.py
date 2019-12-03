@@ -12,11 +12,11 @@ class CardCollector(object):
     def readFile(self, path):
         assert(path != None) #Precondition
 
-        relPath = "C:/Users/denni/source/repos/WS19_G6_LevenshteinDistance/WS19_G6_LevenshteinDistance/Files/reference.txt" #"../WS19_G6_LevenshteinDistance/Files/" + path + ".txt"
-        f = open(relPath, "r+")
-        assert(f != None) #Postcondition
-        f.close()
-        return f
+        relPath = "Files/" + path + ".txt"
+        file = open(relPath, "r+")
+        #assert(file != None) #Postcondition
+        #file.close()
+        return file
 
     #Builds cards from the parameter file and writes them into a self.brokenCards.
     def buildScrambled(self, file):
@@ -45,13 +45,11 @@ class CardCollector(object):
     def writeFile(self, path):
         assert(path != None) #Precondition
 
-        f = open("Files/" + path, "w+")
-        #open("../WS19_G6_LevenshteinDistance/Files/" + path + ".txt", "rb")
+        file = open("Files/" + path + ".txt", "w+")
         for fixedCard in self.repairedCards:
             cardString = fixedCard.name + "|" + fixedCard.mana + "|" + fixedCard.cmc + "|" + fixedCard.type + "|" + fixedCard.count
-            f.write(cardString)
-
-        f.close()
+            file.write(cardString)
+        file.close()
 
         #assert(len(f.readline) > 0) #Postcondition
 
