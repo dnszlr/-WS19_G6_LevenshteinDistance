@@ -9,51 +9,55 @@ class CardCollector(object):
         self.referenceNames = []
         self.repairedCards = []
 
-    def readFile(self, path):
-        assert(path != None) #Precondition
+    #Builds cards from the parameter filename and writes them into self.brokenCards.
+    #Parameters:
+    #Opens a file from the parameter filename
+    def buildScrambled(self, filename):
 
-        relPath = "Files/" + path + ".txt"
+        #Preconditon
+        assert(filename != None) 
+        assert(len(self.brokenCards) == 0)
+
+        relPath = "Files/" + filename + ".txt"
         file = open(relPath, "r+")
-        #assert(file != None) #Postcondition
-        #file.close()
-        return file
-
-    #Builds cards from the parameter file and writes them into a self.brokenCards.
-    def buildScrambled(self, file):
-        assert(file != None) #Preconditon
-
-        file = self.readFile(file)
 
         for line in file:
             lineSplit = line.split("|")
             brokenCard = Card(lineSplit[0], lineSplit[1], lineSplit[2], lineSplit[3], lineSplit[4])
             self.brokenCards.append(brokenCard)
 
-
         file.close()
 
-        #assert(len(self.brokenCards) > 0) #Postcondition
+        #Postcondition
+        assert(file.closed) 
+        assert(len(self.brokenCards) > 0)
 
-    #Reads strings from the parameter file and writes them into a list.
-    #Returns a new list with cards
-    def buildReference(self, file):
-        assert(file != None) #Precondition
+    #Reads strings from the parameter filename and writes them into self.referenceNames.
+    #Parameters:
+    #Opens the relative path from the parameter file
+    def buildReference(self, filename):
+        #Precondition
+        assert(filename != None) 
+        assert(len(self.referenceNames) == 0)
 
-        file = self.readFile(file)
+        relPath = "Files/" + filename + ".txt"
+        file = open(relPath, "r+")
 
         for line in file:
             self.referenceNames.append(str(line))
 
-
         file.close()
 
-        #assert(len(self.referenceNames) > 0) #Postcondition
+        #Postcondition
+        assert(file.closed)
+        assert(len(self.referenceNames) > 0)
 
     #Writes the repairedCards into a selected path
     #Parameters:
-    #path - create a new file with the given path
+    #path - create a new file at the given path
     def writeFile(self, path):
         assert(path != None) #Precondition
+        assert(len(self.repairedCards) > 0) #Precondition
 
         file = open("Files/" + path + ".txt", "w+")
         for fixedCard in self.repairedCards:
@@ -61,10 +65,4 @@ class CardCollector(object):
             file.write(cardString)
         file.close()
 
-        #assert(len(f.readline) > 0) #Postcondition
-
-
-
-
-
-
+        assert(file.closed) #Postcondition
