@@ -8,17 +8,25 @@ class CardCollectorTest(unittest.TestCase):
     def setUp(self):
         self.collector = CardCollector()
 
-    def testRead(self):
+    def testReadFile(self):
         
         file = self.collector.readFile("reference")
         print(file.read())
 
     def testBuildScrambled(self):
-        pass
+
+        self.collector.buildScrambled("scrambled")
+        print("Scrambled card names: ")
+        for cardName in self.collector.brokenCards:
+            print(cardName.name)
 
     def testBuildReference(self):
-        pass
 
+        self.collector.buildReference("reference")
+        print("Reference cards: ")
+        for cardName in self.collector.referenceNames:
+            print(cardName)
+            
     def testWriteFile(self):
 
         repaired = [Card("test", "4", "4", "one", "3")]
@@ -26,6 +34,4 @@ class CardCollectorTest(unittest.TestCase):
         self.collector.writeFile("test")
 
 if __name__ == '__main__':
-    unittest.main()
-       
-      
+    unittest.main()      

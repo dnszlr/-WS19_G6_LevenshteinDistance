@@ -22,22 +22,32 @@ class CardCollector(object):
     def buildScrambled(self, file):
         assert(file != None) #Preconditon
 
+        file = self.readFile(file)
+
         for line in file:
             lineSplit = line.split("|")
             brokenCard = Card(lineSplit[0], lineSplit[1], lineSplit[2], lineSplit[3], lineSplit[4])
             self.brokenCards.append(brokenCard)
 
-        assert(len(self.brokenCards) > 0) #Postcondition
+
+        file.close()
+
+        #assert(len(self.brokenCards) > 0) #Postcondition
 
     #Reads strings from the parameter file and writes them into a list.
     #Returns a new list with cards
     def buildReference(self, file):
         assert(file != None) #Precondition
 
+        file = self.readFile(file)
+
         for line in file:
             self.referenceNames.append(str(line))
 
-        assert(len(self.referenceNames) > 0) #Postcondition
+
+        file.close()
+
+        #assert(len(self.referenceNames) > 0) #Postcondition
 
     #Writes the repairedCards into a selected path
     #Parameters:
