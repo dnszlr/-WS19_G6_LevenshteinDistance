@@ -5,7 +5,6 @@ class CardCollector(object):
     #Class attributes
 
     def __init__(self):
-
         self.brokenCards = []
         self.referenceNames = []
         self.repairedCards = []
