@@ -45,10 +45,10 @@ class CardCollector(object):
     def writeFile(self, path):
         assert(path != None) #Precondition
 
-        f = open(path, "w+")
+        f = open("Files/" + path, "w+")
         #open("../WS19_G6_LevenshteinDistance/Files/" + path + ".txt", "rb")
         for fixedCard in self.repairedCards:
-            cardString = fixedCard.name + fixedCard.mana + fixedCard.cmc + fixedCard.type + fixedCard.count
+            cardString = fixedCard.name + "|" + fixedCard.mana + "|" + fixedCard.cmc + "|" + fixedCard.type + "|" + fixedCard.count
             f.write(cardString)
 
         f.close()
