@@ -8,13 +8,13 @@ class CardRepair(object):
         self.matrix = [[]]
 
     #create the LD-matrix
-    def LD(self, referenceCard):
-        assert len(self.card.name) >= 1 and  len(referenceCard.name) >= 1
+    def LD(self, referenceName):
+        assert len(self.card.name) >= 1 and  len(referenceName) >= 1
         cardRefName = list(self.card.name)
-        cardScramName =list(referenceCard.name)
+        cardScramName =list(referenceName)
         x = len(cardRefName)
         y = len(cardScramName)
-        self.matrix = [[0 for i in range(x+2)] for i in range(y+2)]
+        self.matrix = [[0 for i in range(y+1)] for i in range(x+1)]
         
         self.matrix[0][0] = 0
         for i in range(0, x+1):
@@ -27,7 +27,7 @@ class CardRepair(object):
         for j in range(1, y+1):
             for i in range(1, x+1):
                 c = 1
-                if (self.card.name[i-1] is referenceCard.name[j-1]) : 
+                if (self.card.name[i-1] is referenceName[j-1]) : 
                     c = 0
                 rep = self.matrix[i-1][j-1] + c
                 ins = self.matrix[i][j-1] + 1
@@ -44,21 +44,21 @@ class CardRepair(object):
         for i in range (len(allCards)):
             repairMatrix = self.LD(allCards[i])
             procentLen = 100 / len(brokenCard.name)
-            match = len(brokenCard.name) - repairMatrix[len(brokenCard.name)][len(allCards[i].name)] * procentLen
+            match = len(brokenCard.name) - repairMatrix[len(brokenCard.name)][len(allCards[i])] * procentLen
             if(match >= 90):
-                j = repairMatrix[len(brokenCard.name)][len(allCards[i].name)]
+                j = repairMatrix[len(brokenCard.name)][len(allCards[i])]
                 x1 = len(brokenCard.name)
-                y1 = len(allCards[i].name)
+                y1 = len(allCards[i])
                 while (j is not repairMatrix[0][0]):
                     northwest = repairMatrix[x1-1][y1-1]
                     west = repairMatrix[x1-1][y1]
                     north = repairMatrix[x1][y1-1]
                     if min(northwest, north, west) is northwest:
-                        replace(x1, allCards[i].name[y1])
+                        replace(x1, allCards[i][y1])
                         x1 = x1 - 1
                         y1 = y1 - 1
                     elif min(northwest, north, west) is north:
-                        insert(x1,  allCards[i].name[y1])
+                        insert(x1,  allCards[i][y1])
                         y1 = y1 - 1
                     elif min(northwest, north, west) is west:
                         delete(x1);
