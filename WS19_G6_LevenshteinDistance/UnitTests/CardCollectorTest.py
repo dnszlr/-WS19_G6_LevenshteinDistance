@@ -26,9 +26,9 @@ class CardCollectorTest(unittest.TestCase):
             
     def testWriteFile(self):
 
-        repaired = [Card("test", "4", "4", "one", "3")]
+        repaired = [Card("test7", "4", "4", "one", "3")]
         self.collector.repairedCards = repaired
-        self.collector.writeFile("test")
+        self.collector.writeFile("test1")
 
 
 if __name__ == '__main__':

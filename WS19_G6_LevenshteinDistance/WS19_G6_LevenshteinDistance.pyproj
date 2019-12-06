@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>eba232ef-3d31-454a-8e27-f0a0b86f8aff</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>UnitTests/CardRepairTest.py</StartupFile>
+    <StartupFile>UnitTests/CardCollectorTest.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -51,6 +51,8 @@
   <ItemGroup>
     <Content Include="Files\reference.txt" />
     <Content Include="Files\scrambled.txt" />
+    <Content Include="Files\test.txt" />
+    <Content Include="Files\test1.txt" />
     <Content Include="Files\Uml_V2.JPG" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
