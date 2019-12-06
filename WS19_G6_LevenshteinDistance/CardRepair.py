@@ -43,9 +43,10 @@ class CardRepair(object):
         assert(brokenCard != None and allCards != None) #Precondition
         for i in range (len(allCards)):
             repairMatrix = self.LD(allCards[i])
-            procentLen = 100 / len(brokenCard.name)
-            match = len(brokenCard.name) - repairMatrix[len(brokenCard.name)][len(allCards[i])] * procentLen
-            if(match >= 90):
+            #procentLen = 100 / len(brokenCard.name)
+            #match = len(brokenCard.name) - repairMatrix[len(brokenCard.name)][len(allCards[i])] * procentLen
+            match = repairMatrix[len(brokenCard.name)][len(allCards[i])] * 10
+            if(match <= 30):
                 j = repairMatrix[len(brokenCard.name)][len(allCards[i])]
                 x1 = len(brokenCard.name)
                 y1 = len(allCards[i])
@@ -53,15 +54,16 @@ class CardRepair(object):
                     northwest = repairMatrix[x1-1][y1-1]
                     west = repairMatrix[x1-1][y1]
                     north = repairMatrix[x1][y1-1]
+                    rightCardName = allCards[i]
                     if min(northwest, north, west) is northwest:
-                        replace(x1, allCards[i][y1])
+                        self.replace(x1-1, allCards[i][y1-1])
                         x1 = x1 - 1
                         y1 = y1 - 1
                     elif min(northwest, north, west) is north:
-                        insert(x1,  allCards[i][y1])
+                        self.insert(x1-1,  allCards[i][y1-1])
                         y1 = y1 - 1
                     elif min(northwest, north, west) is west:
-                        delete(x1);
+                        self.delete(x1-1);
                         x1 = x1 - 1
                     j = repairMatrix[x1][y1]
 
