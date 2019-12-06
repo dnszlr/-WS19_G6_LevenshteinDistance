@@ -1,5 +1,6 @@
 import os
 from Card import Card
+from CardRepair import CardRepair
 
 class CardCollector(object):
     #Class attributes
@@ -66,3 +67,13 @@ class CardCollector(object):
         file.close()
 
         assert(file.closed) #Postcondition
+
+
+    def getRepairedCardsList(self):
+        for brokenCard in self.brokenCards:
+            brokenCardName = brokenCard.name
+            cardRepairObject = CardRepair(brokenCard, self.referenceNames)
+            cardRepairObject.repair(brokenCard, self.referenceNames)
+            if cardRepairObject.card.name is not brokenCardName:
+
+                self.repairedCards.append(cardRepairObject.card)
