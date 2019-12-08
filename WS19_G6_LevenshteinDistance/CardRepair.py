@@ -39,38 +39,37 @@ class CardRepair(object):
         return self.matrix
 
     #repair the name of the card from the cards list
-    def repair(self, brokenCard, allCards):
-        assert(brokenCard != None and allCards != None) #Precondition
-        for i in range (len(allCards)):
-            repairMatrix = self.LD(allCards[i])
+    def repair(self):
+        #assert(brokenCard != None and allCards != None) #Precondition
+        for i in range (len(self.allCards)):
+            repairMatrix = self.LD(self.allCards[i])
             #procentLen = 100 / len(brokenCard.name)
             #match = len(brokenCard.name) - repairMatrix[len(brokenCard.name)][len(allCards[i])] * procentLen
-            match = repairMatrix[len(brokenCard.name)][len(allCards[i])] * 10
+            match = repairMatrix[len(self.card.name)][len(self.allCards[i])] * 10
             if(match <= 30):
-                j = repairMatrix[len(brokenCard.name)][len(allCards[i])]
-                x1 = len(brokenCard.name)
-                y1 = len(allCards[i])
+                j = repairMatrix[len(self.card.name)][len(self.allCards[i])]
+                x1 = len(self.card.name)
+                y1 = len(self.allCards[i])
                 while (j is not repairMatrix[0][0]):
                     northwest = repairMatrix[x1-1][y1-1]
                     west = repairMatrix[x1-1][y1]
                     north = repairMatrix[x1][y1-1]
-                    rightCardName = allCards[i]
+                    rightCardName = self.allCards[i]
                     if min(northwest, north, west) is northwest:
-                        self.replace(x1-1, allCards[i][y1-1])
+                        self.replace(x1-1, self.allCards[i][y1-1])
                         x1 = x1 - 1
                         y1 = y1 - 1
                     elif min(northwest, north, west) is north:
-                        self.insert(x1-1,  allCards[i][y1-1])
+                        self.insert(x1-1, self.allCards[i][y1-1])
                         y1 = y1 - 1
                     elif min(northwest, north, west) is west:
                         self.delete(x1-1);
                         x1 = x1 - 1
                     j = repairMatrix[x1][y1]
 
-                    return self.card
 
 
-        
+        return self.card
 
     #inserts the letter c at the index i
     def insert(self, i, c):
@@ -88,4 +87,3 @@ class CardRepair(object):
     def replace(self, i, c):
         assert(i >= 0) #Precondition (Letter c ist an index i)
         self.card.name = self.card.name[:i] + c + self.card.name[i + 1:]
-

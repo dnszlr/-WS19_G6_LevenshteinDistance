@@ -45,7 +45,7 @@ class CardCollector(object):
         file = open(relPath, "r+")
 
         for line in file:
-            self.referenceNames.append(str(line))
+            self.referenceNames.append(str(line[:-2]))
 
         file.close()
 
@@ -73,7 +73,7 @@ class CardCollector(object):
         for brokenCard in self.brokenCards:
             brokenCardName = brokenCard.name
             cardRepairObject = CardRepair(brokenCard, self.referenceNames)
-            cardRepairObject.repair(brokenCard, self.referenceNames)
+            cardRepairObject.repair()
             if cardRepairObject.card.name is not brokenCardName:
 
                 self.repairedCards.append(cardRepairObject.card)
