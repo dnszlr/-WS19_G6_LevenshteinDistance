@@ -67,9 +67,10 @@ class CardRepair(object):
                         x1 = x1 - 1
                     j = repairMatrix[x1][y1]
 
+                    return self.card
 
 
-        return self.card
+        
 
     #inserts the letter c at the index i
     def insert(self, i, c):
