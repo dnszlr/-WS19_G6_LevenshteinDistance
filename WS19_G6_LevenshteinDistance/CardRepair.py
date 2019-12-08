@@ -38,7 +38,7 @@ class CardRepair(object):
         #assert(brokenCard != None and allCards != None) #Precondition
         for i in range (len(self.allCards)):
 
-            if((len(self.allCards[i]) -len(self.card.name)) >= -2 and (len(self.allCards[i]) -len(self.card.name)) <=2 ):
+            if(len(self.allCards[i]) == len(self.card.name)):
 
                 repairMatrix = self.LD(self.allCards[i])
                 #procentLen = 100 / len(brokenCard.name)
