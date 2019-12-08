@@ -37,33 +37,36 @@ class CardRepair(object):
     def repair(self):
         #assert(brokenCard != None and allCards != None) #Precondition
         for i in range (len(self.allCards)):
-            repairMatrix = self.LD(self.allCards[i])
-            #procentLen = 100 / len(brokenCard.name)
-            #match = len(brokenCard.name) - repairMatrix[len(brokenCard.name)][len(allCards[i])] * procentLen
-            match = (repairMatrix[len(self.card.name)][len(self.allCards[i])] * 100) / len(self.card.name)
-            if(match <= 60):
-                j = repairMatrix[len(self.card.name)][len(self.allCards[i])]
-                x1 = len(self.card.name)
-                y1 = len(self.allCards[i])
-                while (j is not repairMatrix[0][0]):
-                    northwest = repairMatrix[x1-1][y1-1]
-                    west = repairMatrix[x1-1][y1]
-                    north = repairMatrix[x1][y1-1]
-                    rightCardName = self.allCards[i]
-                    if min(northwest, north, west) is northwest:
-                        self.replace(x1-1, self.allCards[i][y1-1])
-                        x1 = x1 - 1
-                        y1 = y1 - 1
-                    elif min(northwest, north, west) is north:
-                        self.insert(x1-1, self.allCards[i][y1-1])
-                        y1 = y1 - 1
-                    elif min(northwest, north, west) is west:
-                        self.delete(x1-1);
-                        x1 = x1 - 1
-                    j = repairMatrix[x1][y1]
-                return self.card
 
-        return self.card
+            if((len(self.allCards[i]) -len(self.card.name)) >= -3 or (len(self.allCards[i]) -len(self.card.name)) <=3 ):
+
+                repairMatrix = self.LD(self.allCards[i])
+                #procentLen = 100 / len(brokenCard.name)
+                #match = len(brokenCard.name) - repairMatrix[len(brokenCard.name)][len(allCards[i])] * procentLen
+                match = (repairMatrix[len(self.card.name)][len(self.allCards[i])] * 100) / len(self.card.name)
+                if(match <= 60):
+                    j = repairMatrix[len(self.card.name)][len(self.allCards[i])]
+                    x1 = len(self.card.name)
+                    y1 = len(self.allCards[i])
+                    while (j is not repairMatrix[0][0]):
+                        northwest = repairMatrix[x1-1][y1-1]
+                        west = repairMatrix[x1-1][y1]
+                        north = repairMatrix[x1][y1-1]
+                        rightCardName = self.allCards[i]
+                        if min(northwest, north, west) is northwest:
+                            self.replace(x1-1, self.allCards[i][y1-1])
+                            x1 = x1 - 1
+                            y1 = y1 - 1
+                        elif min(northwest, north, west) is north:
+                            self.insert(x1-1, self.allCards[i][y1-1])
+                            y1 = y1 - 1
+                        elif min(northwest, north, west) is west:
+                            self.delete(x1-1);
+                            x1 = x1 - 1
+                        j = repairMatrix[x1][y1]
+                    return self.card
+
+            return self.card
 
     #inserts the letter c at the index i
     def insert(self, i, c):
