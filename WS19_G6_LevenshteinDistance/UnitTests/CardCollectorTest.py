@@ -8,21 +8,6 @@ class CardCollectorTest(unittest.TestCase):
     def setUp(self):
         self.collector = CardCollector()
 
-    def testBuildScrambled(self):
-
-        self.collector.buildScrambled("scrambled")
-        print("Scrambled card names: ")
-        assert(len(self.collector.brokenCards) == 663)
-        for cardName in self.collector.brokenCards:
-            print(cardName.name)
-
-    def testBuildReference(self):
-        
-        self.collector.buildReference("reference")
-        print("Reference cards: ")
-        for reference in self.collector.referenceNames:
-            print(reference)
-        assert(len(self.collector.referenceNames) == 6757)
 
     def testWriteFile(self):
 
