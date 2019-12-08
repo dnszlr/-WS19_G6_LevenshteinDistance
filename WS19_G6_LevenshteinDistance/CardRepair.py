@@ -61,6 +61,7 @@ class CardRepair(object):
                         self.delete(x1-1);
                         x1 = x1 - 1
                     j = repairMatrix[x1][y1]
+                return self.card
 
         return self.card
 
