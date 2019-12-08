@@ -52,7 +52,8 @@
     <Content Include="Files\reference.txt" />
     <Content Include="Files\scrambled.txt" />
     <Content Include="Files\test.txt" />
-    <Content Include="Files\test1.txt" />
+    <Content Include="Files\test2.txt" />
+    <Content Include="Files\test3.txt" />
     <Content Include="Files\Uml_V2.JPG" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
