@@ -70,10 +70,10 @@ class CardCollector(object):
 
 
     def getRepairedCardsList(self):
+        counter = 0
         for brokenCard in self.brokenCards:
             brokenCardName = brokenCard.name
             cardRepairObject = CardRepair(brokenCard, self.referenceNames)
             cardRepairObject.repair()
-            if cardRepairObject.card.name is not brokenCardName:
-
-                self.repairedCards.append(cardRepairObject.card)
+            self.repairedCards.append(cardRepairObject.card)
+            counter = counter + 1
