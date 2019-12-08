@@ -5,7 +5,6 @@ class CardRepair(object):
         assert card != None and allCards != None #Precondition
         self.card = card
         self.allCards = allCards
-        self.matrix = [[]]
 
     #create the LD-matrix
     def LD(self, referenceName):
@@ -14,29 +13,25 @@ class CardRepair(object):
         cardScramName =list(referenceName)
         x = len(cardRefName)
         y = len(cardScramName)
-        self.matrix = [[0 for i in range(y+1)] for i in range(x+1)]
+        matrix = [[0 for i in range(y+1)] for i in range(x+1)]
         
-        self.matrix[0][0] = 0
+        matrix[0][0] = 0
         for i in range(0, x+1):
-            self.matrix[i][0] = i
+            matrix[i][0] = i
         for j in range (0, y+1):
-            self.matrix[0][j] = j
-        
-        
+            matrix[0][j] = j
         
         for j in range(1, y+1):
             for i in range(1, x+1):
                 c = 1
                 if (self.card.name[i-1] is referenceName[j-1]) : 
                     c = 0
-                rep = self.matrix[i-1][j-1] + c
-                ins = self.matrix[i][j-1] + 1
-                delete = self.matrix[i-1][j] + 1
-                self.matrix[i][j] = min(rep, ins, delete)
+                rep = matrix[i-1][j-1] + c
+                ins = matrix[i][j-1] + 1
+                delete = matrix[i-1][j] + 1
+                matrix[i][j] = min(rep, ins, delete)
 
-
-
-        return self.matrix
+        return matrix
 
     #repair the name of the card from the cards list
     def repair(self):
@@ -46,11 +41,11 @@ class CardRepair(object):
             #procentLen = 100 / len(brokenCard.name)
             #match = len(brokenCard.name) - repairMatrix[len(brokenCard.name)][len(allCards[i])] * procentLen
             match = repairMatrix[len(self.card.name)][len(self.allCards[i])] * 10
-            if(match <= 50):
+            if(match <= 30):
                 j = repairMatrix[len(self.card.name)][len(self.allCards[i])]
                 x1 = len(self.card.name)
                 y1 = len(self.allCards[i])
-                while (j is not repairMatrix[0][0] and x1 > 0 and y1 > 0):
+                while (j is not repairMatrix[0][0]):
                     northwest = repairMatrix[x1-1][y1-1]
                     west = repairMatrix[x1-1][y1]
                     north = repairMatrix[x1][y1-1]
@@ -66,8 +61,6 @@ class CardRepair(object):
                         self.delete(x1-1);
                         x1 = x1 - 1
                     j = repairMatrix[x1][y1]
-
-
 
         return self.card
 
