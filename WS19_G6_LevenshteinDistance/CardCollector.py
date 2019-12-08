@@ -45,7 +45,7 @@ class CardCollector(object):
         file = open(relPath, "r+")
 
         for line in file:
-            self.referenceNames.append(str(line[:-2]))
+            self.referenceNames.append(str(line[:-1]))
 
         file.close()
 
