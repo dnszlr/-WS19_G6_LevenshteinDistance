@@ -44,7 +44,7 @@ class CardRepair(object):
                 #procentLen = 100 / len(brokenCard.name)
                 #match = len(brokenCard.name) - repairMatrix[len(brokenCard.name)][len(allCards[i])] * procentLen
                 match = (repairMatrix[len(self.card.name)][len(self.allCards[i])] * 100) / len(self.card.name)
-                if(match <= 60):
+                if(match <= 40):
                     j = repairMatrix[len(self.card.name)][len(self.allCards[i])]
                     x1 = len(self.card.name)
                     y1 = len(self.allCards[i])
