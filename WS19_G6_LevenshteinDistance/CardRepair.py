@@ -38,13 +38,13 @@ class CardRepair(object):
         #assert(brokenCard != None and allCards != None) #Precondition
         for i in range (len(self.allCards)):
 
-            if((len(self.allCards[i]) -len(self.card.name)) >= -2 and (len(self.allCards[i]) -len(self.card.name)) <=2 ):
+            if(len(self.allCards[i]) == len(self.card.name)):
 
                 repairMatrix = self.LD(self.allCards[i])
                 #procentLen = 100 / len(brokenCard.name)
                 #match = len(brokenCard.name) - repairMatrix[len(brokenCard.name)][len(allCards[i])] * procentLen
                 match = (repairMatrix[len(self.card.name)][len(self.allCards[i])] * 100) / len(self.card.name)
-                if(match <= 60):
+                if(match <= 40):
                     j = repairMatrix[len(self.card.name)][len(self.allCards[i])]
                     x1 = len(self.card.name)
                     y1 = len(self.allCards[i])

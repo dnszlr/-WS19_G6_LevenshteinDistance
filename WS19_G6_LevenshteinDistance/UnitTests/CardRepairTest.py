@@ -6,11 +6,11 @@ class Test_CardRepairTest(unittest.TestCase):
 
     def setUp(self):
        
-        self.card1 = Card("Scrcoh?ng Missile", 2,4,5,6)
+        self.card1 = Card("Johiar??o th eGhitu Avatar", 2,4,5,6)
         self.card2 = Card("Inufsed?Arrows", 2,4,5,6)
         self.card3 = Card("iiiiiiindustry", 2,4,5,6)
         self.card4 = Card("hallooffrfo", 2,4,5,6)
-        self.referenceNames1 = ["interests", "Scorching Missile" , "Infused Arrows"]
+        self.referenceNames1 = ["Jhoira of the Ghitu Avatar", "Scorching Missile" , "Infused Arrows"]
         self.cardRepair1 = CardRepair(self.card1, self.referenceNames1)
         self.cardRepair2 = CardRepair(self.card2, self.referenceNames1)
 
@@ -19,10 +19,6 @@ class Test_CardRepairTest(unittest.TestCase):
         
         assert(self.cardRepair1.LD(self.referenceNames1[1]) is not None)
         assert(self.card1 is not None)
-        for i in range(len(self.cardRepair1.matrix)):
-            for j in range(len(self.cardRepair1.matrix[i])):
-                print(self.cardRepair1.matrix[i][j], end=' ')
-            print()
        # self.fail("Not implemented")
          
     def testInsert(self):
@@ -48,8 +44,8 @@ class Test_CardRepairTest(unittest.TestCase):
     def testRepair(self):
         print('broken card: ' + self.card1.name)
         print('broken card: ' + self.card2.name)
-        self.cardRepair1.repair(self.card1,self.cardRepair1.allCards)
-        self.cardRepair2.repair(self.card2,self.cardRepair1.allCards)
+        self.cardRepair1.repair()
+        self.cardRepair2.repair()
         print('repaired card: ' + self.card1.name)
         print('repaired card: ' + self.card2.name)
    
