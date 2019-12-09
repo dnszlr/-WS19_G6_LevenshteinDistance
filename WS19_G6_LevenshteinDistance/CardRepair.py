@@ -8,7 +8,8 @@ class CardRepair(object):
 
     #create the LD-matrix
     def LD(self, referenceName):
-        assert len(self.card.name) >= 1 and  len(referenceName) >= 1
+        assert(referenceName != None) #Precondition
+        assert(len(self.card.name) >= 1 and  len(referenceName) >= 1) #Precondition
 
         x = len(self.card.name)
         y = len(referenceName)
@@ -29,7 +30,7 @@ class CardRepair(object):
                 ins = matrix[i][j-1] + 1
                 delete = matrix[i-1][j] + 1
                 matrix[i][j] = min(rep, ins, delete)
-
+        assert(matrix != None) #Postcondition
         return matrix
 
     #repair the name of the card from the cards list
@@ -37,7 +38,8 @@ class CardRepair(object):
 
         for i in range (len(self.allCards)):
 
-            if(abs(len(self.card.name) - len(self.allCards[i])) < 3):
+            #if(abs(len(self.card.name) - len(self.allCards[i])) < 3):
+            if(len(self.card.name) == len(self.allCards[i])):
 
                 repairMatrix = self.LD(self.allCards[i])
                 #procentLen = 100 / len(brokenCard.name)
@@ -64,22 +66,24 @@ class CardRepair(object):
                             y1 = y1 - 1
                         j = repairMatrix[x1][y1]
                     return self.card
-
+        assert(self.card != None) #Postcondition
         return self.card
 
     #inserts the letter c at the index i
     def insert(self, i, c):
-        #assert(i >= 0) #Precondition
+        assert(i >= 0) #Precondition
         self.card.name = self.card.name[:i] + c + self.card.name[i:]
-        #assert(self.card.name[i] == c) #Postcondition (Letter c ist an index i)
+        assert(self.card.name[i] == c) #Postcondition
 
     #deletes the letter at the index i
     def delete(self, i):
-        #assert(i >= 0) #Precondition
+        assert(i >= 0) #Precondition
+        lenOld = len(self.card.name)
         self.card.name = self.card.name[0 : i :] + self.card.name[i + 1 : :]
-        #assert() #Postcondition (Alte Wortlaenge - 1)
+        assert(len(self.card.name) < lenOld) #Postcondition 
 
     #replaces the letter at index i with c.
     def replace(self, i, c):
-        #assert(i >= 0) #Precondition (Letter c ist an index i)
+        assert(i >= 0) #Precondition
         self.card.name = self.card.name[:i] + c + self.card.name[i + 1:]
+        assert(self.card.name[i] == c) #Postcondition
