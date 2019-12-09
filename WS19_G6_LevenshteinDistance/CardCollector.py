@@ -76,3 +76,9 @@ class CardCollector(object):
             cardRepairObject = CardRepair(brokenCard, self.referenceNames)
             cardRepairObject.repair()
             self.repairedCards.append(cardRepairObject.card)
+
+
+    def getRepairedCard(self, i):
+        cardRepairObject = CardRepair(self.brokenCards[i], self.referenceNames)
+        cardRepairObject.repair()
+        self.repairedCards.append(cardRepairObject.card)
