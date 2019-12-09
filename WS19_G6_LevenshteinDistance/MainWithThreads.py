@@ -14,7 +14,7 @@ if __name__=='__main__':
         pool.close()
         pool.join()
         collector1.repairedCards = r.get()
-        collector1.writeFile("RepairedCards2")
+        collector1.writeFile("Arbeitspferd")
 
 
 
