@@ -17,9 +17,7 @@ class CardCollectorTest(unittest.TestCase):
         self.collector.getRepairedCardsList()
         print(self.collector.repairedCards[0].name)
         print(len(self.collector.repairedCards))
-        self.collector.writeFile("test2")
-
-
+        self.collector.writeFile("repairedCards")
 
 if __name__ == '__main__':
     unittest.main()      
