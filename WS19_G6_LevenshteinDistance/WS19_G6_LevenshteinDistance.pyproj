@@ -57,6 +57,7 @@
   <ItemGroup>
     <Content Include="Files\reference.txt" />
     <Content Include="Files\repairedCards.txt" />
+    <Content Include="Files\RepairedCards2.txt" />
     <Content Include="Files\scrambled.txt" />
     <Content Include="Files\Uml_V2.JPG" />
   </ItemGroup>

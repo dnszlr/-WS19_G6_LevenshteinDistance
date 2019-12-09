@@ -2,8 +2,6 @@ from CardCollector import CardCollector
 from CardRepair import CardRepair
 from multiprocessing import Pool
 
-repairedCardsCopy = []
-
 
 if __name__=='__main__':
         collector1 = CardCollector()
@@ -15,9 +13,7 @@ if __name__=='__main__':
                
         pool.close()
         pool.join()
-        repairedCardsCopy.append(r.get(timeout=4500))
-        collector1.repairedCards.append(r.get(timeout=4500))
-        
+        collector1.repairedCards = r.get(timeout=4500)
         collector1.writeFile("RepairedCards2")
 
 
