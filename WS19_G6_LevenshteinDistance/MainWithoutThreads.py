@@ -1,7 +1,9 @@
 from CardCollector import CardCollector
 from CardRepair import CardRepair
+import time
 
 
+startTime = time.time()
 if __name__=='__main__':
         collector1 = CardCollector()
 
@@ -14,6 +16,7 @@ if __name__=='__main__':
         #print(len(collector1.repairedCards))
         
         collector1.writeFile("ArbeitspferdOhneThreads")
+        print(time.time() - startTime)
 
 
 
