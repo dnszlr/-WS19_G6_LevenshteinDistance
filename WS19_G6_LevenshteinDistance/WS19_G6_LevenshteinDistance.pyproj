@@ -55,6 +55,7 @@
     <Folder Include="UnitTests\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Files\Arbeitspferd.txt" />
     <Content Include="Files\reference.txt" />
     <Content Include="Files\repairedCards.txt" />
     <Content Include="Files\RepairedCards2.txt" />
