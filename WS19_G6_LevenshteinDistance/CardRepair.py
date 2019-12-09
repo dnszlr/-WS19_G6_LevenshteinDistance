@@ -9,10 +9,9 @@ class CardRepair(object):
     #create the LD-matrix
     def LD(self, referenceName):
         assert len(self.card.name) >= 1 and  len(referenceName) >= 1
-        cardRefName = list(self.card.name)
-        cardScramName =list(referenceName)
-        x = len(cardRefName)
-        y = len(cardScramName)
+
+        x = len(self.card.name)
+        y = len(referenceName)
         matrix = [[0 for i in range(y+1)] for i in range(x+1)]
         
         matrix[0][0] = 0
@@ -38,7 +37,7 @@ class CardRepair(object):
 
         for i in range (len(self.allCards)):
 
-            if(len(self.card.name) == len(self.allCards[i])):
+            if(abs(len(self.card.name) - len(self.allCards[i])) < 3):
 
                 repairMatrix = self.LD(self.allCards[i])
                 #procentLen = 100 / len(brokenCard.name)
