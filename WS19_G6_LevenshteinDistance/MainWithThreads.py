@@ -9,8 +9,7 @@ if __name__=='__main__':
         collector1.buildScrambled("scrambled")
         collector1.buildReference("reference")
         numbers = range(len(collector1.brokenCards))
-        r = pool.map_async(collector1.getRepairedCard, numbers)
-               
+        r = pool.map_async(collector1.getRepairedCard, numbers) 
         pool.close()
         pool.join()
         collector1.repairedCards = r.get()
