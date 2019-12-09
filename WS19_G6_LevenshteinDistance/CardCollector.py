@@ -70,15 +70,19 @@ class CardCollector(object):
 
 
     def getRepairedCardsList(self):
-
+        assert(len(self.repairedCards) == 0) #Precondition
         for brokenCard in self.brokenCards:
             brokenCardName = brokenCard.name
             cardRepairObject = CardRepair(brokenCard, self.referenceNames)
             cardRepairObject.repair()
             self.repairedCards.append(cardRepairObject.card)
 
+        assert(len(self.repairedCards) > 0) #Postcondition
+
 
     def getRepairedCard(self, i):
+        assert(i >= 0) #Precondition
         cardRepairObject = CardRepair(self.brokenCards[i], self.referenceNames)
         card = cardRepairObject.repair()
+        assert(card != None) #Postconditon
         return card
