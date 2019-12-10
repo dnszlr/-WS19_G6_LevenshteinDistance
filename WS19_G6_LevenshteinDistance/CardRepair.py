@@ -40,8 +40,9 @@ class CardRepair(object):
     #repair the name of the card from the cards list
     def repair(self):
         assert(self.card != None) #Precondition
-
-        for i in range (len(self.allCards)):
+        i = 0
+        found = False
+        while (i < len(self.allCards) and not found):
 
             if(len(self.card.name) == len(self.allCards[i])):
 
@@ -67,7 +68,7 @@ class CardRepair(object):
                             x1 = x1 - 1
                             y1 = y1 - 1
                         j = repairMatrix[x1][y1]
-                    return self.card
-
+                    found = True
+            i = i + 1
         assert(self.card != None) #Postcondition
         return self.card
