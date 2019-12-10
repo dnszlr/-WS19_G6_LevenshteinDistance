@@ -57,8 +57,9 @@ class CardCollector(object):
     #Parameters:
     #path - create a new file at the given path
     def writeFile(self, path):
-        assert(path != None) #Precondition
-        assert(len(self.repairedCards) > 0) #Precondition
+        #Precondition
+        assert(path != None)
+        assert(len(self.repairedCards) > 0)
 
         file = open("Files/" + path + ".txt", "w+")
         for fixedCard in self.repairedCards:
@@ -66,11 +67,13 @@ class CardCollector(object):
             file.write(cardString)
         file.close()
 
-        assert(file.closed) #Postcondition
+        #Postcondition
+        assert(file.closed) 
 
 
     def getRepairedCardsList(self):
         assert(len(self.repairedCards) == 0) #Precondition
+
         for brokenCard in self.brokenCards:
             brokenCardName = brokenCard.name
             cardRepairObject = CardRepair(brokenCard, self.referenceNames)
@@ -82,7 +85,9 @@ class CardCollector(object):
 
     def getRepairedCard(self, i):
         assert(i >= 0) #Precondition
+
         cardRepairObject = CardRepair(self.brokenCards[i], self.referenceNames)
         card = cardRepairObject.repair()
         assert(card != None) #Postconditon
+
         return card

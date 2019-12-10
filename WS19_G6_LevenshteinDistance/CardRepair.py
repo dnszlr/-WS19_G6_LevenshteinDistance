@@ -8,8 +8,10 @@ class CardRepair(object):
 
     #create the LD-matrix
     def LD(self, referenceName):
-        assert(referenceName != None) #Precondition
-        assert(len(self.card.name) >= 1 and  len(referenceName) >= 1) #Precondition
+
+        #Preconditin
+        assert(referenceName != None)
+        assert(len(self.card.name) >= 1 and  len(referenceName) >= 1)
 
         x = len(self.card.name)
         y = len(referenceName)
@@ -30,11 +32,13 @@ class CardRepair(object):
                 ins = matrix[i][j-1] + 1
                 delete = matrix[i-1][j] + 1
                 matrix[i][j] = min(rep, ins, delete)
+
         assert(matrix != None) #Postcondition
         return matrix
 
     #repair the name of the card from the cards list
     def repair(self):
+        assert(self.card != None) #Precondition
 
         for i in range (len(self.allCards)):
 
@@ -69,4 +73,5 @@ class CardRepair(object):
                     return self.card
         print("failed")
         assert(self.card != None) #Postcondition
+
         return self.card
