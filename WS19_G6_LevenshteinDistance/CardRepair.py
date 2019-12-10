@@ -6,10 +6,13 @@ class CardRepair(object):
         self.card = card
         self.allCards = allCards
 
+
     #create the LD-matrix
     def LD(self, referenceName):
-        assert(referenceName != None) #Precondition
-        assert(len(self.card.name) >= 1 and  len(referenceName) >= 1) #Precondition
+
+        #Preconditin
+        assert(referenceName != None)
+        assert(len(self.card.name) >= 1 and len(referenceName) >= 1)
 
         x = len(self.card.name)
         y = len(referenceName)
@@ -30,21 +33,22 @@ class CardRepair(object):
                 ins = matrix[i][j-1] + 1
                 delete = matrix[i-1][j] + 1
                 matrix[i][j] = min(rep, ins, delete)
+
         assert(matrix != None) #Postcondition
         return matrix
 
     #repair the name of the card from the cards list
     #repair if accordance is over 50 %
     def repair(self):
+        assert(self.card != None) #Precondition
+        i = 0
+        found = False
+        while (i < len(self.allCards) and not found):
 
-        for i in range (len(self.allCards)):
-
-            if(len(self.card.name) == len(self.allCards[i])):       #compare the names which has the same length (faster)
+            if(len(self.card.name) == len(self.allCards[i])):
 
                 repairMatrix = self.LD(self.allCards[i])
-                #procentLen = 100 / len(brokenCard.name)
-                #match = len(brokenCard.name) - repairMatrix[len(brokenCard.name)][len(allCards[i])] * procentLen
-                match = (repairMatrix[len(self.card.name)][len(self.allCards[i])] * 100) / len(self.card.name) #getting the percent of the accordance
+                match = (repairMatrix[len(self.card.name)][len(self.allCards[i])] * 100) / len(self.card.name)
                 if(match <= 50):
                     j = repairMatrix[len(self.card.name)][len(self.allCards[i])]
                     x1 = len(self.card.name)
@@ -53,36 +57,19 @@ class CardRepair(object):
                         northwest = repairMatrix[x1-1][y1-1]    
                         west = repairMatrix[x1-1][y1]
                         north = repairMatrix[x1][y1-1]
-                        if min(northwest, north, west) is west: 
-                            self.delete(x1-1)
+                        minValue = min(northwest, north, west)
+                        if minValue == west:
+                            self.card.delete(x1-1)
                             x1 = x1 - 1
-                        elif min(northwest, north, west) is north:
-                            self.insert(x1, self.allCards[i][y1-1])
+                        elif minValue == north:
+                            self.card.insert(x1, self.allCards[i][y1-1])
                             y1 = y1 - 1
-                        elif min(northwest, north, west) is northwest:
-                            self.replace(x1-1, self.allCards[i][y1-1])
+                        elif minValue == northwest:
+                            self.card.replace(x1-1, self.allCards[i][y1-1])
                             x1 = x1 - 1
                             y1 = y1 - 1
                         j = repairMatrix[x1][y1]
-                    return self.card
+                    found = True
+            i = i + 1
         assert(self.card != None) #Postcondition
         return self.card
-
-    #inserts the letter c at the index i
-    def insert(self, i, c):
-        assert(i >= 0) #Precondition
-        self.card.name = self.card.name[:i] + c + self.card.name[i:]
-        assert(self.card.name[i] == c) #Postcondition
-
-    #deletes the letter at the index i
-    def delete(self, i):
-        assert(i >= 0) #Precondition
-        lenOld = len(self.card.name)
-        self.card.name = self.card.name[0 : i :] + self.card.name[i + 1 : :]
-        assert(len(self.card.name) < lenOld) #Postcondition 
-
-    #replaces the letter at index i with c.
-    def replace(self, i, c):
-        assert(i >= 0) #Precondition
-        self.card.name = self.card.name[:i] + c + self.card.name[i + 1:]
-        assert(self.card.name[i] == c) #Postcondition

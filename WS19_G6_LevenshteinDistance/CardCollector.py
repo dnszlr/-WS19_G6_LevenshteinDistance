@@ -23,14 +23,16 @@ class CardCollector(object):
         assert(len(self.brokenCards) == 0)
 
         relPath = "Files/" + filename + ".txt"
-        file = open(relPath, "r+")      
-
-        for line in file:
-            lineSplit = line.split("|") #Splitting the scrambled card String on "|"
-            brokenCard = Card(lineSplit[0], lineSplit[1], lineSplit[2], lineSplit[3], lineSplit[4])
-            self.brokenCards.append(brokenCard)
-
-        file.close()  
+        try:
+            file = open(relPath, "r+")
+            for line in file:
+                lineSplit = line.split("|")
+                brokenCard = Card(lineSplit[0], lineSplit[1], lineSplit[2], lineSplit[3], lineSplit[4])
+                self.brokenCards.append(brokenCard)
+        except:
+            print("Can't load file")
+        finally:
+            file.close()
 
         #Postcondition
         assert(file.closed) 
@@ -45,14 +47,14 @@ class CardCollector(object):
         assert(len(self.referenceNames) == 0)
 
         relPath = "Files/" + filename + ".txt"
-        file = open(relPath, "r+")   #open the file with relPath
-
-        for line in file:
-            #reading file and convert into string line by line 
-            #-1 because in file is at the end of string a \n to end the line
-            self.referenceNames.append(str(line[:-1])) 
-
-        file.close()                #close the file
+        try:
+            file = open(relPath, "r+")
+            for line in file:
+                self.referenceNames.append(str(line[:-1]))
+        except:
+            print("Can't load file")
+        finally:
+            file.close()
 
         #Postcondition
         assert(file.closed)
@@ -62,20 +64,26 @@ class CardCollector(object):
     #Parameters:
     #path - create a new file at the given path
     def writeFile(self, path):
-        assert(path != None) #Precondition
-        assert(len(self.repairedCards) > 0) #Precondition
+        #Precondition
+        assert(path != None)
+        assert(len(self.repairedCards) > 0)
+        try:
+            file = open("Files/" + path + ".txt", "w+")
+            for fixedCard in self.repairedCards:
+                cardString = fixedCard.name + "|" + fixedCard.mana + "|" + fixedCard.cmc + "|" + fixedCard.type + "|" + fixedCard.count
+                file.write(cardString)
+        except:
+            print("Can't write file")
+        finally:
+            file.close()
 
-        file = open("Files/" + path + ".txt", "w+")
-        for fixedCard in self.repairedCards:        #getting all parameter from card and write it in the new file
-            cardString = fixedCard.name + "|" + fixedCard.mana + "|" + fixedCard.cmc + "|" + fixedCard.type + "|" + fixedCard.count
-            file.write(cardString)
-        file.close()
-
-        assert(file.closed) #Postcondition
+        #Postcondition
+        assert(file.closed) 
 
     #go through the broken Card List with for each loop. calling repair method with a cardRepairObject
     def getRepairedCardsList(self):
         assert(len(self.repairedCards) == 0) #Precondition
+
         for brokenCard in self.brokenCards:
             brokenCardName = brokenCard.name
             cardRepairObject = CardRepair(brokenCard, self.referenceNames)
@@ -87,7 +95,10 @@ class CardCollector(object):
     #repairing the card on index i and return it
     def getRepairedCard(self, i):
         assert(i >= 0) #Precondition
+
         cardRepairObject = CardRepair(self.brokenCards[i], self.referenceNames)
         card = cardRepairObject.repair()
+
         assert(card != None) #Postconditon
+
         return card
