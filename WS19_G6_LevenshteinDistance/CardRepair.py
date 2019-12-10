@@ -6,7 +6,6 @@ class CardRepair(object):
         self.card = card
         self.allCards = allCards
 
-
     #create the LD-matrix
     def LD(self, referenceName):
 

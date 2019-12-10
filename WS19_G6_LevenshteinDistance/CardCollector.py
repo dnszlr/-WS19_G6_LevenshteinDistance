@@ -50,6 +50,8 @@ class CardCollector(object):
         try:
             file = open(relPath, "r+")
             for line in file:
+            #reading file and convert into string line by line 
+            #-1 because in file is at the end of string a \n to 
                 self.referenceNames.append(str(line[:-1]))
         except:
             print("Can't load file")
