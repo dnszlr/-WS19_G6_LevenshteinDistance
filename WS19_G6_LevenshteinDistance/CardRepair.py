@@ -40,7 +40,7 @@ class CardRepair(object):
     #repair the name of the card from the cards list
     def repair(self):
         assert(self.card != None) #Precondition
-
+        
         for i in range (len(self.allCards)):
 
             if(len(self.card.name) == len(self.allCards[i])):
@@ -70,4 +70,4 @@ class CardRepair(object):
                     return self.card
 
         assert(self.card != None) #Postcondition
-        return self.card
+        return self.card 
