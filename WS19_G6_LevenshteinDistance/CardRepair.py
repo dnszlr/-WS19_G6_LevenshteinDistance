@@ -55,8 +55,7 @@ class CardRepair(object):
                             self.card.delete(x1-1)
                             x1 = x1 - 1
                         elif min(northwest, north, west) is north:
-                            self.card.insert(x1-1, self.allCards[i][y1-1])
-                            self.insert(x1, self.allCards[i][y1-1])
+                            self.card.insert(x1, self.allCards[i][y1-1])
                             y1 = y1 - 1
                         elif min(northwest, north, west) is northwest:
                             self.card.replace(x1-1, self.allCards[i][y1-1])
