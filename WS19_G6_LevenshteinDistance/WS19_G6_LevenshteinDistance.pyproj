@@ -40,9 +40,6 @@
     <Compile Include="MainWithThreads.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="mainTest.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="UnitTests\CardCollectorTest.py">
       <SubType>Code</SubType>
     </Compile>
