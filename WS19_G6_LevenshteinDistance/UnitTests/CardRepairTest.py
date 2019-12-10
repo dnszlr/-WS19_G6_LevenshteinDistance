@@ -6,11 +6,11 @@ class Test_CardRepairTest(unittest.TestCase):
 
     def setUp(self):
        
-        self.card1 = Card("Johiar??o th eGhitu Avatar", 2,4,5,6)
+        self.card1 = Card("D?i? rCharm", 2,4,5,6)
         self.card2 = Card("Inufsed?Arrows", 2,4,5,6)
         self.card3 = Card("iiiiiiindustry", 2,4,5,6)
         self.card4 = Card("hallooffrfo", 2,4,5,6)
-        self.referenceNames1 = ["Jhoira of the Ghitu Avatar", "Scorching Missile" , "Infused Arrows"]
+        self.referenceNames1 = ["Dimir Charm", "Scorching Missile" , "Infused Arrows"]
         self.cardRepair1 = CardRepair(self.card1, self.referenceNames1)
         self.cardRepair2 = CardRepair(self.card2, self.referenceNames1)
 

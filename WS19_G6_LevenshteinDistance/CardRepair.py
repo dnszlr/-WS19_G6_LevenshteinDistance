@@ -53,12 +53,11 @@ class CardRepair(object):
                         northwest = repairMatrix[x1-1][y1-1]
                         west = repairMatrix[x1-1][y1]
                         north = repairMatrix[x1][y1-1]
-                        rightCardName = self.allCards[i]
                         if min(northwest, north, west) is west:
                             self.delete(x1-1)
                             x1 = x1 - 1
                         elif min(northwest, north, west) is north:
-                            self.insert(x1-1, self.allCards[i][y1-1])
+                            self.insert(x1, self.allCards[i][y1-1])
                             y1 = y1 - 1
                         elif min(northwest, north, west) is northwest:
                             self.replace(x1-1, self.allCards[i][y1-1])
