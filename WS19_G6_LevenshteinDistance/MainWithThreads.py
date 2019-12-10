@@ -12,6 +12,7 @@ if __name__=='__main__':
         #process1 = Process(target = collector1.buildScrambled, args=("scrambled",))
         #process1.start()
         #process1.join()
+        #process1.close()
         collector1.buildScrambled("scrambled")
         collector1.buildReference("reference")
         numbers = range(len(collector1.brokenCards))
