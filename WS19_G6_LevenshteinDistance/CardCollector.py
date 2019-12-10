@@ -20,14 +20,16 @@ class CardCollector(object):
         assert(len(self.brokenCards) == 0)
 
         relPath = "Files/" + filename + ".txt"
-        file = open(relPath, "r+")
-
-        for line in file:
-            lineSplit = line.split("|")
-            brokenCard = Card(lineSplit[0], lineSplit[1], lineSplit[2], lineSplit[3], lineSplit[4])
-            self.brokenCards.append(brokenCard)
-
-        file.close()
+        try:
+            file = open(relPath, "r+")
+            for line in file:
+                lineSplit = line.split("|")
+                brokenCard = Card(lineSplit[0], lineSplit[1], lineSplit[2], lineSplit[3], lineSplit[4])
+                self.brokenCards.append(brokenCard)
+        except:
+            print("Can't load file")
+        finally:
+            file.close()
 
         #Postcondition
         assert(file.closed) 
@@ -42,12 +44,14 @@ class CardCollector(object):
         assert(len(self.referenceNames) == 0)
 
         relPath = "Files/" + filename + ".txt"
-        file = open(relPath, "r+")
-
-        for line in file:
-            self.referenceNames.append(str(line[:-1]))
-
-        file.close()
+        try:
+            file = open(relPath, "r+")
+            for line in file:
+                self.referenceNames.append(str(line[:-1]))
+        except:
+            print("Can't load file")
+        finally:
+            file.close()
 
         #Postcondition
         assert(file.closed)
@@ -60,12 +64,15 @@ class CardCollector(object):
         #Precondition
         assert(path != None)
         assert(len(self.repairedCards) > 0)
-
-        file = open("Files/" + path + ".txt", "w+")
-        for fixedCard in self.repairedCards:
-            cardString = fixedCard.name + "|" + fixedCard.mana + "|" + fixedCard.cmc + "|" + fixedCard.type + "|" + fixedCard.count
-            file.write(cardString)
-        file.close()
+        try:
+            file = open("Files/" + path + ".txt", "w+")
+            for fixedCard in self.repairedCards:
+                cardString = fixedCard.name + "|" + fixedCard.mana + "|" + fixedCard.cmc + "|" + fixedCard.type + "|" + fixedCard.count
+                file.write(cardString)
+        except:
+            print("Can't write file")
+        finally:
+            file.close()
 
         #Postcondition
         assert(file.closed) 
@@ -88,6 +95,7 @@ class CardCollector(object):
 
         cardRepairObject = CardRepair(self.brokenCards[i], self.referenceNames)
         card = cardRepairObject.repair()
+
         assert(card != None) #Postconditon
 
         return card

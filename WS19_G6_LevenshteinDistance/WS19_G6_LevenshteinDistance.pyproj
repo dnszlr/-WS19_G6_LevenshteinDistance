@@ -53,6 +53,7 @@
   <ItemGroup>
     <Folder Include="Files\" />
     <Folder Include="UnitTests\" />
+    <Folder Include="__pycache__\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Files\Arbeitspferd.txt" />
@@ -60,6 +61,9 @@
     <Content Include="Files\RepairedCards2.txt" />
     <Content Include="Files\scrambled.txt" />
     <Content Include="Files\Uml_V2.JPG" />
+    <Content Include="__pycache__\Card.cpython-37.pyc" />
+    <Content Include="__pycache__\CardCollector.cpython-37.pyc" />
+    <Content Include="__pycache__\CardRepair.cpython-37.pyc" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

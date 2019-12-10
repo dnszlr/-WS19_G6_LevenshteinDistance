@@ -6,12 +6,13 @@ class CardRepair(object):
         self.card = card
         self.allCards = allCards
 
+
     #create the LD-matrix
     def LD(self, referenceName):
 
         #Preconditin
         assert(referenceName != None)
-        assert(len(self.card.name) >= 1 and  len(referenceName) >= 1)
+        assert(len(self.card.name) >= 1 and len(referenceName) >= 1)
 
         x = len(self.card.name)
         y = len(referenceName)
@@ -42,7 +43,6 @@ class CardRepair(object):
 
         for i in range (len(self.allCards)):
 
-            #if(abs(len(self.card.name) - len(self.allCards[i])) < 3):
             if(len(self.card.name) == len(self.allCards[i])):
 
                 repairMatrix = self.LD(self.allCards[i])
@@ -55,23 +55,19 @@ class CardRepair(object):
                         northwest = repairMatrix[x1-1][y1-1]
                         west = repairMatrix[x1-1][y1]
                         north = repairMatrix[x1][y1-1]
-                        if min(northwest, north, west) is west:
+                        minValue = min(northwest, north, west)
+                        if minValue == west:
                             self.card.delete(x1-1)
                             x1 = x1 - 1
-                        elif min(northwest, north, west) is north:
+                        elif minValue == north:
                             self.card.insert(x1, self.allCards[i][y1-1])
                             y1 = y1 - 1
-                        elif min(northwest, north, west) is northwest:
+                        elif minValue == northwest:
                             self.card.replace(x1-1, self.allCards[i][y1-1])
                             x1 = x1 - 1
                             y1 = y1 - 1
                         j = repairMatrix[x1][y1]
-                        
-                        #print(self.card.name + ": " + str(match) + ":" + self.allCards[i])
-                    if(self.card.name != self.allCards[i]):
-                        print(self.card.name + "|" + self.allCards[i])
                     return self.card
-        print("failed")
-        assert(self.card != None) #Postcondition
 
+        assert(self.card != None) #Postcondition
         return self.card
