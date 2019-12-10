@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>eba232ef-3d31-454a-8e27-f0a0b86f8aff</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MainWithoutThreads.py</StartupFile>
+    <StartupFile>MainWithThreads.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -57,7 +57,6 @@
   <ItemGroup>
     <Content Include="Files\Arbeitspferd.txt" />
     <Content Include="Files\reference.txt" />
-    <Content Include="Files\repairedCards.txt" />
     <Content Include="Files\RepairedCards2.txt" />
     <Content Include="Files\scrambled.txt" />
     <Content Include="Files\Uml_V2.JPG" />
