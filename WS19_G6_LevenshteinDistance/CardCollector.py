@@ -3,8 +3,11 @@ from Card import Card
 from CardRepair import CardRepair
 
 class CardCollector(object):
+    
+    #List brokenCards to save the broken Cards in a List
+    #List referenceNames to save the correct Names in a List
+    #List repairedCards to safe the repaird Cards in a List
     #Class attributes
-
     def __init__(self):
         self.brokenCards = []
         self.referenceNames = []
@@ -47,6 +50,8 @@ class CardCollector(object):
         try:
             file = open(relPath, "r+")
             for line in file:
+            #reading file and convert into string line by line 
+            #-1 because in file is at the end of string a \n to 
                 self.referenceNames.append(str(line[:-1]))
         except:
             print("Can't load file")
@@ -77,7 +82,7 @@ class CardCollector(object):
         #Postcondition
         assert(file.closed) 
 
-
+    #go through the broken Card List with for each loop. calling repair method with a cardRepairObject
     def getRepairedCardsList(self):
         assert(len(self.repairedCards) == 0) #Precondition
 
@@ -89,7 +94,7 @@ class CardCollector(object):
 
         assert(len(self.repairedCards) > 0) #Postcondition
 
-
+    #repairing the card on index i and return it
     def getRepairedCard(self, i):
         assert(i >= 0) #Precondition
 
