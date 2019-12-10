@@ -53,17 +53,17 @@ class CardRepair(object):
                     x1 = len(self.card.name)
                     y1 = len(self.allCards[i])
                     while (j is not repairMatrix[0][0]):        #while we not on [0][0]
-                        northwest = repairMatrix[x1-1][y1-1]    
-                        west = repairMatrix[x1-1][y1]
-                        north = repairMatrix[x1][y1-1]
-                        minValue = min(northwest, north, west)
+                        northwest = repairMatrix[x1-1][y1-1]    #upperleft
+                        west = repairMatrix[x1-1][y1]           #left
+                        north = repairMatrix[x1][y1-1]          #top
+                        minValue = min(northwest, north, west)  #variable 
                         if minValue == west:
-                            self.card.delete(x1-1)
+                            self.card.delete(x1-1)              #left calling delete function
                             x1 = x1 - 1
-                        elif minValue == north:
+                        elif minValue == north:                 #top calling insert function
                             self.card.insert(x1, self.allCards[i][y1-1])
                             y1 = y1 - 1
-                        elif minValue == northwest:
+                        elif minValue == northwest:             #upperLeft calling replace function
                             self.card.replace(x1-1, self.allCards[i][y1-1])
                             x1 = x1 - 1
                             y1 = y1 - 1
