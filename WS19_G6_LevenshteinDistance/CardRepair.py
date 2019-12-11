@@ -70,7 +70,7 @@ class CardRepair(object):
                         j = repairMatrix[x1][y1]
                         
                     found = True
-                    print(self.card.name + " | " + str(match))
+                    
             i = i + 1
         assert(self.card != None) #Postcondition
         return self.card 
