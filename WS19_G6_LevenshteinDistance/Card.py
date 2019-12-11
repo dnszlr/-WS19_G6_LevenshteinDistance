@@ -10,7 +10,7 @@ class Card(object):
         self.type = type
         self.count = count
 
-    #inserts the letter c at the index i
+    #Inserts the letter c at the index i
     def insert(self, i, c):
         assert(i >= 0) #Precondition
 
@@ -18,7 +18,7 @@ class Card(object):
 
         assert(self.name[i] == c) #Postcondition
 
-    #deletes the letter at the index i
+    #Deletes the letter at the index i
     def delete(self, i):
         assert(i >= 0) #Precondition
 
@@ -27,7 +27,7 @@ class Card(object):
 
         assert(len(self.name) < lenOld) #Postcondition 
 
-    #replaces the letter at index i with c.
+    #Replaces the letter at index i with c.
     def replace(self, i, c):
         assert(i >= 0) #Precondition
 

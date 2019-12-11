@@ -50,7 +50,7 @@ class CardCollector(object):
         try:
             file = open(relPath, "r+")
             for line in file:
-            #reading file and convert into string line by line 
+            #Reading file and convert into string line by line 
             #-1 because in file is at the end of string a \n to 
                 self.referenceNames.append(str(line[:-1]))
         except:
@@ -80,9 +80,9 @@ class CardCollector(object):
             file.close()
 
         #Postcondition
-        assert(file.closed) 
+        assert(file.closed)
 
-    #go through the broken Card List with for each loop. calling repair method with a cardRepairObject
+    #Go through the broken Card List with for each loop. calling repair method with a cardRepairObject
     def getRepairedCardsList(self):
         assert(len(self.repairedCards) == 0) #Precondition
 
@@ -94,7 +94,7 @@ class CardCollector(object):
 
         assert(len(self.repairedCards) > 0) #Postcondition
 
-    #repairing the card on index i and return it
+    #Repairing the card on index i and return it
     def getRepairedCard(self, i):
         assert(i >= 0) #Precondition
 

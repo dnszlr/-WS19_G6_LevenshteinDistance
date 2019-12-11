@@ -1,6 +1,6 @@
 class CardRepair(object):
 
-    #class has a card and allCards
+    #Class has a card and allCards
     def __init__(self, card, allCards):
         assert card != None and allCards != None #Precondition
         self.card = card
@@ -9,26 +9,26 @@ class CardRepair(object):
     #create the LD-matrix
     def LD(self, referenceName):
 
-        #Preconditin
+        #Precondition
         assert(referenceName != None)
         assert(len(self.card.name) >= 1 and len(referenceName) >= 1)
 
         x = len(self.card.name)
         y = len(referenceName)
-        matrix = [[0 for i in range(y+1)] for i in range(x+1)]      #filling the matrix with 0 and the length from both cardnames
+        matrix = [[0 for i in range(y+1)] for i in range(x+1)]      #Filling the matrix with 0 and the length from both cardnames
         
         matrix[0][0] = 0
-        for i in range(0, x+1):     #x+1 becasue of the numbers of the length from cardname
-            matrix[i][0] = i        #getting the numbers of cardname length and print it into Martix
-        for j in range (0, y+1):    #y+1 becasue of the numbers of the length from reference name
-            matrix[0][j] = j        #getting the numbers of reference name length and print it into Martix
+        for i in range(0, x+1):     #x+1 because of the numbers of the length from cardname
+            matrix[i][0] = i        #Getting the numbers of cardname length and print it into Martix
+        for j in range (0, y+1):    #y+1 because of the numbers of the length from reference name
+            matrix[0][j] = j        #Getting the numbers of reference name length and print it into Martix
         
         for j in range(1, y+1):
             for i in range(1, x+1):
                 c = 1
-                if (self.card.name[i-1] is referenceName[j-1]) :    #if letter is the same which will be copmared c=0
+                if (self.card.name[i-1] is referenceName[j-1]) :    #If letter is the same which will be compared c=0
                     c = 0
-                rep = matrix[i-1][j-1] + c                          #filling matrix with numbers
+                rep = matrix[i-1][j-1] + c                          #Filling matrix with numbers
                 ins = matrix[i][j-1] + 1
                 delete = matrix[i-1][j] + 1
                 matrix[i][j] = min(rep, ins, delete)
@@ -52,22 +52,23 @@ class CardRepair(object):
                     j = repairMatrix[len(self.card.name)][len(self.allCards[i])]
                     x1 = len(self.card.name)
                     y1 = len(self.allCards[i])
-                    while (j is not repairMatrix[0][0]):        #while we not on [0][0]
-                        northwest = repairMatrix[x1-1][y1-1]    #upperleft
-                        west = repairMatrix[x1-1][y1]           #left
-                        north = repairMatrix[x1][y1-1]          #top
-                        minValue = min(northwest, north, west)  #variable 
+                    while (j is not repairMatrix[0][0]):        #While we not on [0][0]
+                        northwest = repairMatrix[x1-1][y1-1]    #Upperleft
+                        west = repairMatrix[x1-1][y1]           #Left
+                        north = repairMatrix[x1][y1-1]          #Top
+                        minValue = min(northwest, north, west)  #Variable 
                         if minValue == west:
-                            self.card.delete(x1-1)              #left calling delete function
+                            self.card.delete(x1-1)              #Left calling delete function
                             x1 = x1 - 1
-                        elif minValue == north:                 #top calling insert function
+                        elif minValue == north:                 #Top calling insert function
                             self.card.insert(x1, self.allCards[i][y1-1])
                             y1 = y1 - 1
-                        elif minValue == northwest:             #upperLeft calling replace function
+                        elif minValue == northwest:             #UpperLeft calling replace function
                             self.card.replace(x1-1, self.allCards[i][y1-1])
                             x1 = x1 - 1
                             y1 = y1 - 1
                         j = repairMatrix[x1][y1]
+                        print(self.card.name + " | " + str(match))
                     found = True
             i = i + 1
         assert(self.card != None) #Postcondition
