@@ -16,18 +16,21 @@ class Test_CardRepairTest(unittest.TestCase):
         self.cardRepair2 = CardRepair(self.card2, self.referenceNames1)
 
 
+        #calling the LD function from Cardrepair and try it with card1
     def testLD(self):
         
         assert(self.cardRepair1.LD(self.referenceNames1[1]) is not None)
         assert(self.card1 is not None)
        # self.fail("Not implemented")
          
+       #calling the insert function from Cardrepair and try it with card one
     def testInsert(self):
         pass
         assert(self.card1 is not None)
         self.cardRepair1.insert(2, "B")
         print("This is testInsert: " + self.cardRepair1.card.name)
 
+        #calling the delete function from Cardrepair and try it with 
     def testDelete(self):
         pass
         assert(self.card1 is not None)
@@ -42,6 +45,7 @@ class Test_CardRepairTest(unittest.TestCase):
         print("This is testReplace: " + self.cardRepair1.card.name)
     
     
+        #calling the repair function from Cardrepair
     def testRepair(self):
         print('broken card: ' + self.card1.name)
         print('broken card: ' + self.card2.name)
