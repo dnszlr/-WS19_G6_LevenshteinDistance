@@ -68,8 +68,9 @@ class CardRepair(object):
                             x1 = x1 - 1
                             y1 = y1 - 1
                         j = repairMatrix[x1][y1]
-                        print(self.card.name + " | " + str(match))
+                        
                     found = True
+                    print(self.card.name + " | " + str(match))
             i = i + 1
         assert(self.card != None) #Postcondition
         return self.card 
