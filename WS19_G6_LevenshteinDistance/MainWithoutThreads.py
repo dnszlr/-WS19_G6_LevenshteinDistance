@@ -15,7 +15,7 @@ if __name__=='__main__':
         #print(collector1.repairedCards[0].name)
         #print(len(collector1.repairedCards))
         
-        collector1.writeFile("ArbeitspferdOhneThreads") #write them in the file with "Path"
+        collector1.writeFile("repairedwithoutThreads") #write them in the file with "Path"
         print(time.time() - startTime)                  #printing the time for this work in seconds
 
 

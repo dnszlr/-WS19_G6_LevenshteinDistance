@@ -25,10 +25,9 @@ class CardRepair(object):
         
         for j in range(1, y+1):
             for i in range(1, x+1):
-                c = 1
-                if (self.card.name[i-1] is referenceName[j-1]) :    #If letter is the same which will be compared c=0
-                    c = 0
-                rep = matrix[i-1][j-1] + c                          #Filling matrix with numbers
+               #Filling matrix with numbers
+                c = 0 if (self.card.name[i-1] is referenceName[j-1]) else 1    #If letter is the same which will be compared c=0 else c=1
+                rep = matrix[i-1][j-1] + c                          
                 ins = matrix[i][j-1] + 1
                 delete = matrix[i-1][j] + 1
                 matrix[i][j] = min(rep, ins, delete)
@@ -38,7 +37,7 @@ class CardRepair(object):
 
     #repair the name of the card from the cards list
     #repair if accordance is over 50 %
-    def repair(self):
+    def repair(self, threshold = 50):
         assert(self.card != None) #Precondition
         i = 0
         found = False
@@ -48,7 +47,7 @@ class CardRepair(object):
 
                 repairMatrix = self.LD(self.allCards[i])
                 match = (repairMatrix[len(self.card.name)][len(self.allCards[i])] * 100) / len(self.card.name)
-                if(match <= 50):
+                if(match <= threshold):
                     j = repairMatrix[len(self.card.name)][len(self.allCards[i])]
                     x1 = len(self.card.name)
                     y1 = len(self.allCards[i])
