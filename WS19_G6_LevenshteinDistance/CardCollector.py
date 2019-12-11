@@ -87,7 +87,6 @@ class CardCollector(object):
         assert(len(self.repairedCards) == 0) #Precondition
 
         for brokenCard in self.brokenCards:
-            brokenCardName = brokenCard.name
             cardRepairObject = CardRepair(brokenCard, self.referenceNames)
             cardRepairObject.repair()
             self.repairedCards.append(cardRepairObject.card)
