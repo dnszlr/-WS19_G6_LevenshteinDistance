@@ -57,7 +57,7 @@
     <Content Include="Files\reference.txt" />
     <Content Include="Files\RepairedCards2.txt" />
     <Content Include="Files\scrambled.txt" />
-    <Content Include="Files\Uml_V2.JPG" />
+    <Content Include="Files\Uml_V3_1.JPG" />
     <Content Include="__pycache__\Card.cpython-37.pyc" />
     <Content Include="__pycache__\CardCollector.cpython-37.pyc" />
     <Content Include="__pycache__\CardRepair.cpython-37.pyc" />
