@@ -20,25 +20,6 @@ class Test_CardRepairTest(unittest.TestCase):
         assert(self.cardRepair1.LD(self.referenceNames1[1]) is not None)
         assert(self.card1 is not None)
        # self.fail("Not implemented")
-         
-    def testInsert(self):
-        pass
-        assert(self.card1 is not None)
-        self.cardRepair1.insert(2, "B")
-        print("This is testInsert: " + self.cardRepair1.card.name)
-
-    def testDelete(self):
-        pass
-        assert(self.card1 is not None)
-        self.cardRepair1.delete(2)
-        print("This is testDelete: " + self.cardRepair1.card.name)
-
-    def testReplace(self):
-        pass
-        
-        assert(self.card1 is not None)
-        self.cardRepair1.replace(2, "B")
-        print("This is testReplace: " + self.cardRepair1.card.name)
     
     
     def testRepair(self):

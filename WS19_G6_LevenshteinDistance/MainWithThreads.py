@@ -8,7 +8,7 @@ import sys
 startTime = time.time()
 if __name__=='__main__':
         collector1 = CardCollector()
-        
+
         t1 = Thread(target = collector1.buildScrambled, args = ("scrambled",))
         t1.start()
         t1.join()        
