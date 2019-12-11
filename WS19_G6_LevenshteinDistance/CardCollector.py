@@ -6,7 +6,7 @@ class CardCollector(object):
     
     #List brokenCards to save the broken Cards in a List
     #List referenceNames to save the correct Names in a List
-    #List repairedCards to safe the repaird Cards in a List
+    #List repairedCards to save the repaird Cards in a List
     #Class attributes
     def __init__(self):
         self.brokenCards = []
