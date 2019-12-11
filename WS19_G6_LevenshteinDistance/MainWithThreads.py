@@ -15,8 +15,6 @@ if __name__=='__main__':
         t2 = Thread(target = collector1.buildReference, args = ("reference",))  #creating thread with his task
         t2.start()  
         t2.join()
-        #collector1.buildScrambled("scrambled")
-        #collector1.buildReference("reference")
         numbers = range(len(collector1.brokenCards))            #saving the number of broken cards in numbers
         pool = Pool(10)                                         #creating a pool of processes
         r = pool.map_async(collector1.getRepairedCard, numbers) #r inintialise the process
